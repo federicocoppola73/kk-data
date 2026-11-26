@@ -1,0 +1,928 @@
+{
+  "datasetId": "player-id-clues-starter-20",
+  "datasetVersion": "1.0.0",
+  "notes": "Draft starter content for clue-based Player ID. Each player has five progressive biographical clues. Club names, transfers and club-year sequences are intentionally excluded and reserved for Career Path. Verify facts before production.",
+  "gameRules": {
+    "questionsPerRound": 10,
+    "answerOptions": 4,
+    "cluesPerQuestion": 5,
+    "automaticRevealIntervalMs": 4000,
+    "manualReveal": true,
+    "pointsByClue": [
+      200,
+      160,
+      120,
+      80,
+      40
+    ],
+    "xpPerCorrectAnswer": 25,
+    "distractorPriority": [
+      "sameNationality",
+      "samePlayingRole",
+      "anyEligiblePlayer"
+    ],
+    "clubInformationExcluded": true
+  },
+  "players": [
+    {
+      "id": "lionel-messi",
+      "displayName": "Lionel Messi",
+      "nationality": "Argentina",
+      "position": "forward",
+      "activityPeriod": "2003–present",
+      "clues": [
+        {
+          "key": "nationality",
+          "text": {
+            "en": "Argentina",
+            "it": "Argentina"
+          }
+        },
+        {
+          "key": "birthplace",
+          "text": {
+            "en": "Rosario, Argentina",
+            "it": "Rosario, Argentina"
+          }
+        },
+        {
+          "key": "role",
+          "text": {
+            "en": "Forward; primarily a creative attacker",
+            "it": "Attaccante; soprattutto un attaccante creativo"
+          }
+        },
+        {
+          "key": "era",
+          "text": {
+            "en": "Senior career began in 2003; still active",
+            "it": "Carriera senior iniziata nel 2003; ancora in attività"
+          }
+        },
+        {
+          "key": "fact",
+          "text": {
+            "en": "Eight-time Ballon d’Or winner",
+            "it": "Otto volte vincitore del Pallone d’Oro"
+          }
+        }
+      ],
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "cristiano-ronaldo",
+      "displayName": "Cristiano Ronaldo",
+      "nationality": "Portugal",
+      "position": "forward",
+      "activityPeriod": "2002–present",
+      "clues": [
+        {
+          "key": "nationality",
+          "text": {
+            "en": "Portugal",
+            "it": "Portogallo"
+          }
+        },
+        {
+          "key": "birthplace",
+          "text": {
+            "en": "Funchal, Madeira, Portugal",
+            "it": "Funchal, isola di Madeira, Portogallo"
+          }
+        },
+        {
+          "key": "role",
+          "text": {
+            "en": "Forward; known for finishing and aerial ability",
+            "it": "Attaccante; noto per finalizzazione e gioco aereo"
+          }
+        },
+        {
+          "key": "era",
+          "text": {
+            "en": "Senior career began in 2002; still active",
+            "it": "Carriera senior iniziata nel 2002; ancora in attività"
+          }
+        },
+        {
+          "key": "fact",
+          "text": {
+            "en": "One of the most prolific international goalscorers in men’s football",
+            "it": "Uno dei marcatori più prolifici nella storia del calcio internazionale maschile"
+          }
+        }
+      ],
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "kylian-mbappe",
+      "displayName": "Kylian Mbappé",
+      "nationality": "France",
+      "position": "forward",
+      "activityPeriod": "2015–present",
+      "clues": [
+        {
+          "key": "nationality",
+          "text": {
+            "en": "France",
+            "it": "Francia"
+          }
+        },
+        {
+          "key": "birthplace",
+          "text": {
+            "en": "Paris, France",
+            "it": "Parigi, Francia"
+          }
+        },
+        {
+          "key": "role",
+          "text": {
+            "en": "Forward; often plays as a left winger or striker",
+            "it": "Attaccante; spesso impiegato come ala sinistra o centravanti"
+          }
+        },
+        {
+          "key": "era",
+          "text": {
+            "en": "Senior career began in 2015; still active",
+            "it": "Carriera senior iniziata nel 2015; ancora in attività"
+          }
+        },
+        {
+          "key": "fact",
+          "text": {
+            "en": "Won the 2018 FIFA World Cup and scored a hat-trick in the 2022 final",
+            "it": "Ha vinto il Mondiale 2018 e segnato una tripletta nella finale del 2022"
+          }
+        }
+      ],
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "erling-haaland",
+      "displayName": "Erling Haaland",
+      "nationality": "Norway",
+      "position": "forward",
+      "activityPeriod": "2015–present",
+      "clues": [
+        {
+          "key": "nationality",
+          "text": {
+            "en": "Norway",
+            "it": "Norvegia"
+          }
+        },
+        {
+          "key": "birthplace",
+          "text": {
+            "en": "Leeds, England",
+            "it": "Leeds, Inghilterra"
+          }
+        },
+        {
+          "key": "role",
+          "text": {
+            "en": "Striker; known for pace, movement and finishing",
+            "it": "Centravanti; noto per velocità, movimenti e finalizzazione"
+          }
+        },
+        {
+          "key": "era",
+          "text": {
+            "en": "Senior career began in 2015; still active",
+            "it": "Carriera senior iniziata nel 2015; ancora in attività"
+          }
+        },
+        {
+          "key": "fact",
+          "text": {
+            "en": "Scored nine goals in a single match at the 2019 FIFA U-20 World Cup",
+            "it": "Ha segnato nove gol in una singola partita al Mondiale Under-20 del 2019"
+          }
+        }
+      ],
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "mohamed-salah",
+      "displayName": "Mohamed Salah",
+      "nationality": "Egypt",
+      "position": "forward",
+      "activityPeriod": "2010–present",
+      "clues": [
+        {
+          "key": "nationality",
+          "text": {
+            "en": "Egypt",
+            "it": "Egitto"
+          }
+        },
+        {
+          "key": "birthplace",
+          "text": {
+            "en": "Nagrig, Egypt",
+            "it": "Nagrig, Egitto"
+          }
+        },
+        {
+          "key": "role",
+          "text": {
+            "en": "Forward; usually plays as a right winger",
+            "it": "Attaccante; gioca abitualmente come ala destra"
+          }
+        },
+        {
+          "key": "era",
+          "text": {
+            "en": "Senior career began in 2010; still active",
+            "it": "Carriera senior iniziata nel 2010; ancora in attività"
+          }
+        },
+        {
+          "key": "fact",
+          "text": {
+            "en": "Named African Footballer of the Year in 2017 and 2018",
+            "it": "Eletto calciatore africano dell’anno nel 2017 e nel 2018"
+          }
+        }
+      ],
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "kevin-de-bruyne",
+      "displayName": "Kevin De Bruyne",
+      "nationality": "Belgium",
+      "position": "midfielder",
+      "activityPeriod": "2008–present",
+      "clues": [
+        {
+          "key": "nationality",
+          "text": {
+            "en": "Belgium",
+            "it": "Belgio"
+          }
+        },
+        {
+          "key": "birthplace",
+          "text": {
+            "en": "Drongen, Belgium",
+            "it": "Drongen, Belgio"
+          }
+        },
+        {
+          "key": "role",
+          "text": {
+            "en": "Midfielder; renowned for passing and chance creation",
+            "it": "Centrocampista; celebre per passaggi e creazione di occasioni"
+          }
+        },
+        {
+          "key": "era",
+          "text": {
+            "en": "Senior career began in 2008; still active",
+            "it": "Carriera senior iniziata nel 2008; ancora in attività"
+          }
+        },
+        {
+          "key": "fact",
+          "text": {
+            "en": "Has won the Premier League Playmaker of the Season award multiple times",
+            "it": "Ha vinto più volte il premio Premier League Playmaker of the Season"
+          }
+        }
+      ],
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "vinicius-junior",
+      "displayName": "Vinícius Júnior",
+      "nationality": "Brazil",
+      "position": "forward",
+      "activityPeriod": "2017–present",
+      "clues": [
+        {
+          "key": "nationality",
+          "text": {
+            "en": "Brazil",
+            "it": "Brasile"
+          }
+        },
+        {
+          "key": "birthplace",
+          "text": {
+            "en": "São Gonçalo, Brazil",
+            "it": "São Gonçalo, Brasile"
+          }
+        },
+        {
+          "key": "role",
+          "text": {
+            "en": "Forward; usually plays as a left winger",
+            "it": "Attaccante; gioca abitualmente come ala sinistra"
+          }
+        },
+        {
+          "key": "era",
+          "text": {
+            "en": "Senior career began in 2017; still active",
+            "it": "Carriera senior iniziata nel 2017; ancora in attività"
+          }
+        },
+        {
+          "key": "fact",
+          "text": {
+            "en": "Scored in the 2022 and 2024 UEFA Champions League finals",
+            "it": "Ha segnato nelle finali di UEFA Champions League del 2022 e del 2024"
+          }
+        }
+      ],
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "jude-bellingham",
+      "displayName": "Jude Bellingham",
+      "nationality": "England",
+      "position": "midfielder",
+      "activityPeriod": "2019–present",
+      "clues": [
+        {
+          "key": "nationality",
+          "text": {
+            "en": "England",
+            "it": "Inghilterra"
+          }
+        },
+        {
+          "key": "birthplace",
+          "text": {
+            "en": "Stourbridge, England",
+            "it": "Stourbridge, Inghilterra"
+          }
+        },
+        {
+          "key": "role",
+          "text": {
+            "en": "Midfielder; combines ball-carrying, pressing and late runs",
+            "it": "Centrocampista; unisce conduzione, pressing e inserimenti"
+          }
+        },
+        {
+          "key": "era",
+          "text": {
+            "en": "Senior career began in 2019; still active",
+            "it": "Carriera senior iniziata nel 2019; ancora in attività"
+          }
+        },
+        {
+          "key": "fact",
+          "text": {
+            "en": "Named Bundesliga Player of the Season for 2022–23",
+            "it": "Eletto miglior giocatore della Bundesliga 2022–23"
+          }
+        }
+      ],
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "harry-kane",
+      "displayName": "Harry Kane",
+      "nationality": "England",
+      "position": "forward",
+      "activityPeriod": "2010–present",
+      "clues": [
+        {
+          "key": "nationality",
+          "text": {
+            "en": "England",
+            "it": "Inghilterra"
+          }
+        },
+        {
+          "key": "birthplace",
+          "text": {
+            "en": "Walthamstow, London, England",
+            "it": "Walthamstow, Londra, Inghilterra"
+          }
+        },
+        {
+          "key": "role",
+          "text": {
+            "en": "Striker; known for finishing and dropping deep to create play",
+            "it": "Centravanti; noto per finalizzazione e capacità di arretrare per creare gioco"
+          }
+        },
+        {
+          "key": "era",
+          "text": {
+            "en": "Senior career began in 2010; still active",
+            "it": "Carriera senior iniziata nel 2010; ancora in attività"
+          }
+        },
+        {
+          "key": "fact",
+          "text": {
+            "en": "Captained England to the UEFA EURO 2024 final",
+            "it": "Ha capitanato l’Inghilterra fino alla finale di UEFA EURO 2024"
+          }
+        }
+      ],
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "robert-lewandowski",
+      "displayName": "Robert Lewandowski",
+      "nationality": "Poland",
+      "position": "forward",
+      "activityPeriod": "2006–present",
+      "clues": [
+        {
+          "key": "nationality",
+          "text": {
+            "en": "Poland",
+            "it": "Polonia"
+          }
+        },
+        {
+          "key": "birthplace",
+          "text": {
+            "en": "Warsaw, Poland",
+            "it": "Varsavia, Polonia"
+          }
+        },
+        {
+          "key": "role",
+          "text": {
+            "en": "Striker; known for movement and clinical finishing",
+            "it": "Centravanti; noto per i movimenti e la precisione sotto porta"
+          }
+        },
+        {
+          "key": "era",
+          "text": {
+            "en": "Senior career began in 2006; still active",
+            "it": "Carriera senior iniziata nel 2006; ancora in attività"
+          }
+        },
+        {
+          "key": "fact",
+          "text": {
+            "en": "Scored five goals in nine minutes in a Bundesliga match in 2015",
+            "it": "Ha segnato cinque gol in nove minuti in una partita di Bundesliga nel 2015"
+          }
+        }
+      ],
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "neymar-jr",
+      "displayName": "Neymar Jr",
+      "nationality": "Brazil",
+      "position": "forward",
+      "activityPeriod": "2009–present",
+      "clues": [
+        {
+          "key": "nationality",
+          "text": {
+            "en": "Brazil",
+            "it": "Brasile"
+          }
+        },
+        {
+          "key": "birthplace",
+          "text": {
+            "en": "Mogi das Cruzes, Brazil",
+            "it": "Mogi das Cruzes, Brasile"
+          }
+        },
+        {
+          "key": "role",
+          "text": {
+            "en": "Forward; known for dribbling and creativity",
+            "it": "Attaccante; noto per dribbling e creatività"
+          }
+        },
+        {
+          "key": "era",
+          "text": {
+            "en": "Senior career began in 2009; still active",
+            "it": "Carriera senior iniziata nel 2009; ancora in attività"
+          }
+        },
+        {
+          "key": "fact",
+          "text": {
+            "en": "Recognised by the CBF as Brazil’s all-time leading men’s international goalscorer",
+            "it": "Riconosciuto dalla CBF come miglior marcatore di sempre della nazionale maschile brasiliana"
+          }
+        }
+      ],
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "luka-modric",
+      "displayName": "Luka Modrić",
+      "nationality": "Croatia",
+      "position": "midfielder",
+      "activityPeriod": "2003–present",
+      "clues": [
+        {
+          "key": "nationality",
+          "text": {
+            "en": "Croatia",
+            "it": "Croazia"
+          }
+        },
+        {
+          "key": "birthplace",
+          "text": {
+            "en": "Zadar, Croatia",
+            "it": "Zara, Croazia"
+          }
+        },
+        {
+          "key": "role",
+          "text": {
+            "en": "Midfielder; known for vision, control and passing range",
+            "it": "Centrocampista; noto per visione, controllo e qualità nei passaggi"
+          }
+        },
+        {
+          "key": "era",
+          "text": {
+            "en": "Senior career began in 2003; still active",
+            "it": "Carriera senior iniziata nel 2003; ancora in attività"
+          }
+        },
+        {
+          "key": "fact",
+          "text": {
+            "en": "Won the Ballon d’Or in 2018",
+            "it": "Ha vinto il Pallone d’Oro nel 2018"
+          }
+        }
+      ],
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "andres-iniesta",
+      "displayName": "Andrés Iniesta",
+      "nationality": "Spain",
+      "position": "midfielder",
+      "activityPeriod": "2001–2024",
+      "clues": [
+        {
+          "key": "nationality",
+          "text": {
+            "en": "Spain",
+            "it": "Spagna"
+          }
+        },
+        {
+          "key": "birthplace",
+          "text": {
+            "en": "Fuentealbilla, Spain",
+            "it": "Fuentealbilla, Spagna"
+          }
+        },
+        {
+          "key": "role",
+          "text": {
+            "en": "Midfielder; known for close control and quick combinations",
+            "it": "Centrocampista; noto per controllo palla e combinazioni rapide"
+          }
+        },
+        {
+          "key": "era",
+          "text": {
+            "en": "Senior career ran from 2001 to 2024",
+            "it": "Carriera senior dal 2001 al 2024"
+          }
+        },
+        {
+          "key": "fact",
+          "text": {
+            "en": "Scored the winning goal in the 2010 FIFA World Cup final",
+            "it": "Ha segnato il gol decisivo nella finale del Mondiale 2010"
+          }
+        }
+      ],
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "xavi-hernandez",
+      "displayName": "Xavi Hernández",
+      "nationality": "Spain",
+      "position": "midfielder",
+      "activityPeriod": "1998–2019",
+      "clues": [
+        {
+          "key": "nationality",
+          "text": {
+            "en": "Spain",
+            "it": "Spagna"
+          }
+        },
+        {
+          "key": "birthplace",
+          "text": {
+            "en": "Terrassa, Spain",
+            "it": "Terrassa, Spagna"
+          }
+        },
+        {
+          "key": "role",
+          "text": {
+            "en": "Central midfielder; known for tempo control and short passing",
+            "it": "Centrocampista centrale; noto per gestione del ritmo e passaggi corti"
+          }
+        },
+        {
+          "key": "era",
+          "text": {
+            "en": "Senior career ran from 1998 to 2019",
+            "it": "Carriera senior dal 1998 al 2019"
+          }
+        },
+        {
+          "key": "fact",
+          "text": {
+            "en": "Won the FIFA World Cup and two UEFA European Championships with Spain",
+            "it": "Ha vinto il Mondiale FIFA e due Europei con la Spagna"
+          }
+        }
+      ],
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "zinedine-zidane",
+      "displayName": "Zinedine Zidane",
+      "nationality": "France",
+      "position": "midfielder",
+      "activityPeriod": "1989–2006",
+      "clues": [
+        {
+          "key": "nationality",
+          "text": {
+            "en": "France",
+            "it": "Francia"
+          }
+        },
+        {
+          "key": "birthplace",
+          "text": {
+            "en": "Marseille, France",
+            "it": "Marsiglia, Francia"
+          }
+        },
+        {
+          "key": "role",
+          "text": {
+            "en": "Attacking midfielder; known for technique and close control",
+            "it": "Trequartista; noto per tecnica e controllo palla"
+          }
+        },
+        {
+          "key": "era",
+          "text": {
+            "en": "Senior career ran from 1989 to 2006",
+            "it": "Carriera senior dal 1989 al 2006"
+          }
+        },
+        {
+          "key": "fact",
+          "text": {
+            "en": "Won the Ballon d’Or in 1998",
+            "it": "Ha vinto il Pallone d’Oro nel 1998"
+          }
+        }
+      ],
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "ronaldinho",
+      "displayName": "Ronaldinho",
+      "nationality": "Brazil",
+      "position": "forward",
+      "activityPeriod": "1998–2015",
+      "clues": [
+        {
+          "key": "nationality",
+          "text": {
+            "en": "Brazil",
+            "it": "Brasile"
+          }
+        },
+        {
+          "key": "birthplace",
+          "text": {
+            "en": "Porto Alegre, Brazil",
+            "it": "Porto Alegre, Brasile"
+          }
+        },
+        {
+          "key": "role",
+          "text": {
+            "en": "Attacking midfielder and forward; famous for flair and dribbling",
+            "it": "Trequartista e attaccante; famoso per fantasia e dribbling"
+          }
+        },
+        {
+          "key": "era",
+          "text": {
+            "en": "Senior career ran from 1998 to 2015",
+            "it": "Carriera senior dal 1998 al 2015"
+          }
+        },
+        {
+          "key": "fact",
+          "text": {
+            "en": "Won the Ballon d’Or in 2005",
+            "it": "Ha vinto il Pallone d’Oro nel 2005"
+          }
+        }
+      ],
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "thierry-henry",
+      "displayName": "Thierry Henry",
+      "nationality": "France",
+      "position": "forward",
+      "activityPeriod": "1994–2014",
+      "clues": [
+        {
+          "key": "nationality",
+          "text": {
+            "en": "France",
+            "it": "Francia"
+          }
+        },
+        {
+          "key": "birthplace",
+          "text": {
+            "en": "Les Ulis, France",
+            "it": "Les Ulis, Francia"
+          }
+        },
+        {
+          "key": "role",
+          "text": {
+            "en": "Forward; known for pace, movement and finishing",
+            "it": "Attaccante; noto per velocità, movimenti e finalizzazione"
+          }
+        },
+        {
+          "key": "era",
+          "text": {
+            "en": "Senior career ran from 1994 to 2014",
+            "it": "Carriera senior dal 1994 al 2014"
+          }
+        },
+        {
+          "key": "fact",
+          "text": {
+            "en": "Won the Golden Boot at the 2003 FIFA Confederations Cup",
+            "it": "Ha vinto la Scarpa d’Oro alla Confederations Cup FIFA 2003"
+          }
+        }
+      ],
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "gianluigi-buffon",
+      "displayName": "Gianluigi Buffon",
+      "nationality": "Italy",
+      "position": "goalkeeper",
+      "activityPeriod": "1995–2023",
+      "clues": [
+        {
+          "key": "nationality",
+          "text": {
+            "en": "Italy",
+            "it": "Italia"
+          }
+        },
+        {
+          "key": "birthplace",
+          "text": {
+            "en": "Carrara, Italy",
+            "it": "Carrara, Italia"
+          }
+        },
+        {
+          "key": "role",
+          "text": {
+            "en": "Goalkeeper; known for reflexes, positioning and leadership",
+            "it": "Portiere; noto per riflessi, posizionamento e leadership"
+          }
+        },
+        {
+          "key": "era",
+          "text": {
+            "en": "Senior career ran from 1995 to 2023",
+            "it": "Carriera senior dal 1995 al 2023"
+          }
+        },
+        {
+          "key": "fact",
+          "text": {
+            "en": "Won the 2006 FIFA World Cup with Italy",
+            "it": "Ha vinto il Mondiale FIFA 2006 con l’Italia"
+          }
+        }
+      ],
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "paolo-maldini",
+      "displayName": "Paolo Maldini",
+      "nationality": "Italy",
+      "position": "defender",
+      "activityPeriod": "1985–2009",
+      "clues": [
+        {
+          "key": "nationality",
+          "text": {
+            "en": "Italy",
+            "it": "Italia"
+          }
+        },
+        {
+          "key": "birthplace",
+          "text": {
+            "en": "Milan, Italy",
+            "it": "Milano, Italia"
+          }
+        },
+        {
+          "key": "role",
+          "text": {
+            "en": "Defender; played mainly as a left-back and centre-back",
+            "it": "Difensore; ha giocato soprattutto da terzino sinistro e centrale"
+          }
+        },
+        {
+          "key": "era",
+          "text": {
+            "en": "Senior career ran from 1985 to 2009",
+            "it": "Carriera senior dal 1985 al 2009"
+          }
+        },
+        {
+          "key": "fact",
+          "text": {
+            "en": "Won five European Cup/UEFA Champions League titles as a player",
+            "it": "Ha vinto cinque Coppe dei Campioni/UEFA Champions League da giocatore"
+          }
+        }
+      ],
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "diego-maradona",
+      "displayName": "Diego Maradona",
+      "nationality": "Argentina",
+      "position": "attacking midfielder",
+      "activityPeriod": "1976–1997",
+      "clues": [
+        {
+          "key": "nationality",
+          "text": {
+            "en": "Argentina",
+            "it": "Argentina"
+          }
+        },
+        {
+          "key": "birthplace",
+          "text": {
+            "en": "Lanús, Buenos Aires Province, Argentina",
+            "it": "Lanús, provincia di Buenos Aires, Argentina"
+          }
+        },
+        {
+          "key": "role",
+          "text": {
+            "en": "Attacking midfielder and forward; famous for dribbling and playmaking",
+            "it": "Trequartista e attaccante; celebre per dribbling e capacità di creare gioco"
+          }
+        },
+        {
+          "key": "era",
+          "text": {
+            "en": "Senior career ran from 1976 to 1997",
+            "it": "Carriera senior dal 1976 al 1997"
+          }
+        },
+        {
+          "key": "fact",
+          "text": {
+            "en": "Won the Golden Ball as best player at the 1986 FIFA World Cup",
+            "it": "Ha vinto il Pallone d’Oro come miglior giocatore del Mondiale 1986"
+          }
+        }
+      ],
+      "editorialStatus": "draft"
+    }
+  ]
+}

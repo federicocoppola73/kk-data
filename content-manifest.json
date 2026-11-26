@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "contentVersion": "0.2.0",
+  "contentVersion": "0.3.0",
   "defaultLocale": "en",
   "supportedLocales": [
     "it",
@@ -15,6 +15,7 @@
     "clubs": "clubs/",
     "questions": "questions/",
     "careerPaths": "career-paths/",
-    "translations": "translations/"
+    "translations": "translations/",
+    "playerImageCredits": "players/player-image-credits.json"
   }
 }

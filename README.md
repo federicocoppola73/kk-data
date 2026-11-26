@@ -29,3 +29,12 @@ The JSON examples in this repository document the initial data contract. Automat
 - `questions/player-id-starter-20.json` contains one draft photo-identification question per player.
 - Question options are omitted intentionally: the app should generate three distractors from the eligible player pool.
 - All starter questions are disabled and all portrait rights are pending. Add properly licensed portrait files and record the supporting rights evidence before enabling any question.
+
+
+## Player portrait assets and attribution
+
+- Portrait files are stored in `players/pending/` and referenced by `players/player-id-starter-20.json`.
+- `players/player-image-credits.json` is the source and attribution register for all 20 portraits.
+- The register records the Wikimedia Commons source page, creator information, the file-specific licence where confirmed, and review status.
+- Licences differ between files. Do not assume the whole collection is covered by one licence.
+- All portraits remain pending and are not cleared for production use. Verify missing licence data, attribution, local modifications, and any applicable personality/privacy rights before enabling the questions.

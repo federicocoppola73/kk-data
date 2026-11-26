@@ -21,3 +21,11 @@ This repository is the editorial source of truth for structured content. If cont
 
 ## Validation
 The JSON examples in this repository document the initial data contract. Automated validation and a publishing pipeline will be added before production content is loaded.
+
+
+## Player ID starter content
+
+- `players/player-id-starter-20.json` contains 20 well-known current and retired players.
+- `questions/player-id-starter-20.json` contains one draft photo-identification question per player.
+- Question options are omitted intentionally: the app should generate three distractors from the eligible player pool.
+- All starter questions are disabled and all portrait rights are pending. Add properly licensed portrait files and record the supporting rights evidence before enabling any question.

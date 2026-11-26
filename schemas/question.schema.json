@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kitandkick.example/schemas/question.schema.json",
+  "title": "Kit & Kick Question",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "mode", "difficulty", "prompt", "answer", "enabled"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "mode": { "enum": ["player-from-photo", "club-from-photo", "player-from-career", "club-from-crest"] },
+    "difficulty": { "enum": ["easy", "medium", "hard", "expert"] },
+    "prompt": {
+      "type": "object",
+      "description": "Localised prompt strings keyed by locale code.",
+      "additionalProperties": { "type": "string" }
+    },
+    "answer": {
+      "type": "object",
+      "required": ["entityType", "entityId"],
+      "properties": {
+        "entityType": { "enum": ["player", "club"] },
+        "entityId": { "type": "string" }
+      }
+    },
+    "options": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label"],
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "type": "object", "additionalProperties": { "type": "string" } }
+        }
+      }
+    },
+    "assetIds": { "type": "array", "items": { "type": "string" } },
+    "points": { "type": "integer", "minimum": 0 },
+    "enabled": { "type": "boolean" }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "contentVersion": "0.3.1",
+  "contentVersion": "0.4.0",
   "defaultLocale": "en",
   "supportedLocales": [
     "it",
@@ -16,6 +16,7 @@
     "questions": "questions/",
     "careerPaths": "career-paths/",
     "translations": "translations/",
-    "playerImageCredits": "players/player-image-credits.json"
+    "playerImageCredits": "players/player-image-credits.json",
+    "clubIdStarter": "clubs/club-id-starter-12.json"
   }
 }

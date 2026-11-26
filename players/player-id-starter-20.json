@@ -1,0 +1,407 @@
+{
+  "datasetId": "player-id-starter-20",
+  "datasetVersion": "0.1.0",
+  "notes": "Starter roster for Player ID. Portrait paths are reserved placeholders; records must remain unavailable until image rights are approved and licensed image files are added.",
+  "players": [
+    {
+      "id": "lionel-messi",
+      "displayName": "Lionel Messi",
+      "nationality": "Argentina",
+      "position": "forward",
+      "active": true,
+      "asset": {
+        "assetId": "lionel-messi-portrait",
+        "provider": "repository",
+        "path": "assets/players/pending/lionel-messi.webp",
+        "alt": "Portrait photo of Lionel Messi"
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null
+      }
+    },
+    {
+      "id": "cristiano-ronaldo",
+      "displayName": "Cristiano Ronaldo",
+      "nationality": "Portugal",
+      "position": "forward",
+      "active": true,
+      "asset": {
+        "assetId": "cristiano-ronaldo-portrait",
+        "provider": "repository",
+        "path": "assets/players/pending/cristiano-ronaldo.webp",
+        "alt": "Portrait photo of Cristiano Ronaldo"
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null
+      }
+    },
+    {
+      "id": "kylian-mbappe",
+      "displayName": "Kylian Mbappé",
+      "nationality": "France",
+      "position": "forward",
+      "active": true,
+      "asset": {
+        "assetId": "kylian-mbappe-portrait",
+        "provider": "repository",
+        "path": "assets/players/pending/kylian-mbappe.webp",
+        "alt": "Portrait photo of Kylian Mbappé"
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null
+      }
+    },
+    {
+      "id": "erling-haaland",
+      "displayName": "Erling Haaland",
+      "nationality": "Norway",
+      "position": "forward",
+      "active": true,
+      "asset": {
+        "assetId": "erling-haaland-portrait",
+        "provider": "repository",
+        "path": "assets/players/pending/erling-haaland.webp",
+        "alt": "Portrait photo of Erling Haaland"
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null
+      }
+    },
+    {
+      "id": "mohamed-salah",
+      "displayName": "Mohamed Salah",
+      "nationality": "Egypt",
+      "position": "forward",
+      "active": true,
+      "asset": {
+        "assetId": "mohamed-salah-portrait",
+        "provider": "repository",
+        "path": "assets/players/pending/mohamed-salah.webp",
+        "alt": "Portrait photo of Mohamed Salah"
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null
+      }
+    },
+    {
+      "id": "kevin-de-bruyne",
+      "displayName": "Kevin De Bruyne",
+      "nationality": "Belgium",
+      "position": "midfielder",
+      "active": true,
+      "asset": {
+        "assetId": "kevin-de-bruyne-portrait",
+        "provider": "repository",
+        "path": "assets/players/pending/kevin-de-bruyne.webp",
+        "alt": "Portrait photo of Kevin De Bruyne"
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null
+      }
+    },
+    {
+      "id": "vinicius-junior",
+      "displayName": "Vinícius Júnior",
+      "nationality": "Brazil",
+      "position": "forward",
+      "active": true,
+      "asset": {
+        "assetId": "vinicius-junior-portrait",
+        "provider": "repository",
+        "path": "assets/players/pending/vinicius-junior.webp",
+        "alt": "Portrait photo of Vinícius Júnior"
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null
+      }
+    },
+    {
+      "id": "jude-bellingham",
+      "displayName": "Jude Bellingham",
+      "nationality": "England",
+      "position": "midfielder",
+      "active": true,
+      "asset": {
+        "assetId": "jude-bellingham-portrait",
+        "provider": "repository",
+        "path": "assets/players/pending/jude-bellingham.webp",
+        "alt": "Portrait photo of Jude Bellingham"
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null
+      }
+    },
+    {
+      "id": "harry-kane",
+      "displayName": "Harry Kane",
+      "nationality": "England",
+      "position": "forward",
+      "active": true,
+      "asset": {
+        "assetId": "harry-kane-portrait",
+        "provider": "repository",
+        "path": "assets/players/pending/harry-kane.webp",
+        "alt": "Portrait photo of Harry Kane"
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null
+      }
+    },
+    {
+      "id": "robert-lewandowski",
+      "displayName": "Robert Lewandowski",
+      "nationality": "Poland",
+      "position": "forward",
+      "active": true,
+      "asset": {
+        "assetId": "robert-lewandowski-portrait",
+        "provider": "repository",
+        "path": "assets/players/pending/robert-lewandowski.webp",
+        "alt": "Portrait photo of Robert Lewandowski"
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null
+      }
+    },
+    {
+      "id": "neymar-jr",
+      "displayName": "Neymar Jr",
+      "nationality": "Brazil",
+      "position": "forward",
+      "active": true,
+      "asset": {
+        "assetId": "neymar-jr-portrait",
+        "provider": "repository",
+        "path": "assets/players/pending/neymar-jr.webp",
+        "alt": "Portrait photo of Neymar Jr"
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null
+      }
+    },
+    {
+      "id": "luka-modric",
+      "displayName": "Luka Modrić",
+      "nationality": "Croatia",
+      "position": "midfielder",
+      "active": true,
+      "asset": {
+        "assetId": "luka-modric-portrait",
+        "provider": "repository",
+        "path": "assets/players/pending/luka-modric.webp",
+        "alt": "Portrait photo of Luka Modrić"
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null
+      }
+    },
+    {
+      "id": "andres-iniesta",
+      "displayName": "Andrés Iniesta",
+      "nationality": "Spain",
+      "position": "midfielder",
+      "active": false,
+      "asset": {
+        "assetId": "andres-iniesta-portrait",
+        "provider": "repository",
+        "path": "assets/players/pending/andres-iniesta.webp",
+        "alt": "Portrait photo of Andrés Iniesta"
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null
+      }
+    },
+    {
+      "id": "xavi-hernandez",
+      "displayName": "Xavi Hernández",
+      "nationality": "Spain",
+      "position": "midfielder",
+      "active": false,
+      "asset": {
+        "assetId": "xavi-hernandez-portrait",
+        "provider": "repository",
+        "path": "assets/players/pending/xavi-hernandez.webp",
+        "alt": "Portrait photo of Xavi Hernández"
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null
+      }
+    },
+    {
+      "id": "zinedine-zidane",
+      "displayName": "Zinedine Zidane",
+      "nationality": "France",
+      "position": "midfielder",
+      "active": false,
+      "asset": {
+        "assetId": "zinedine-zidane-portrait",
+        "provider": "repository",
+        "path": "assets/players/pending/zinedine-zidane.webp",
+        "alt": "Portrait photo of Zinedine Zidane"
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null
+      }
+    },
+    {
+      "id": "ronaldinho",
+      "displayName": "Ronaldinho",
+      "nationality": "Brazil",
+      "position": "forward",
+      "active": false,
+      "asset": {
+        "assetId": "ronaldinho-portrait",
+        "provider": "repository",
+        "path": "assets/players/pending/ronaldinho.webp",
+        "alt": "Portrait photo of Ronaldinho"
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null
+      }
+    },
+    {
+      "id": "thierry-henry",
+      "displayName": "Thierry Henry",
+      "nationality": "France",
+      "position": "forward",
+      "active": false,
+      "asset": {
+        "assetId": "thierry-henry-portrait",
+        "provider": "repository",
+        "path": "assets/players/pending/thierry-henry.webp",
+        "alt": "Portrait photo of Thierry Henry"
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null
+      }
+    },
+    {
+      "id": "gianluigi-buffon",
+      "displayName": "Gianluigi Buffon",
+      "nationality": "Italy",
+      "position": "goalkeeper",
+      "active": false,
+      "asset": {
+        "assetId": "gianluigi-buffon-portrait",
+        "provider": "repository",
+        "path": "assets/players/pending/gianluigi-buffon.webp",
+        "alt": "Portrait photo of Gianluigi Buffon"
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null
+      }
+    },
+    {
+      "id": "paolo-maldini",
+      "displayName": "Paolo Maldini",
+      "nationality": "Italy",
+      "position": "defender",
+      "active": false,
+      "asset": {
+        "assetId": "paolo-maldini-portrait",
+        "provider": "repository",
+        "path": "assets/players/pending/paolo-maldini.webp",
+        "alt": "Portrait photo of Paolo Maldini"
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null
+      }
+    },
+    {
+      "id": "diego-maradona",
+      "displayName": "Diego Maradona",
+      "nationality": "Argentina",
+      "position": "forward",
+      "active": false,
+      "asset": {
+        "assetId": "diego-maradona-portrait",
+        "provider": "repository",
+        "path": "assets/players/pending/diego-maradona.webp",
+        "alt": "Portrait photo of Diego Maradona"
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null
+      }
+    }
+  ]
+}

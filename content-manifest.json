@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "0.1.0",
+  "defaultLocale": "en",
+  "supportedLocales": ["it", "en", "es", "fr", "de"],
+  "updatedAt": "2026-11-26",
+  "collections": {
+    "players": "players/",
+    "clubs": "clubs/",
+    "questions": "questions/",
+    "careerPaths": "career-paths/",
+    "translations": "translations/"
+  }
+}

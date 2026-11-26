@@ -10,7 +10,9 @@
     "For files with a null licence, check the exact Licensing section on the source page before any public or commercial distribution.",
     "Confirm whether local copies were cropped, resized, compressed or otherwise modified; disclose modifications in the attribution notice where required.",
     "A copyright licence for a photograph does not automatically clear personality, privacy, trademark, event, or other third-party rights.",
-    "All assets remain pending and must not be enabled in production until legal and editorial review is complete."
+    "All assets remain pending and must not be enabled in production until legal and editorial review is complete.",
+    "Source-page licence verification does not constitute clearance of personality/publicity rights, and all assets remain pending until separate legal review.",
+    "For SNN and Farsnews images, follow the exact attribution wording recorded for the source; do not substitute the photographer credit for the required agency attribution."
   ],
   "assets": [
     {
@@ -36,16 +38,17 @@
       "filePath": "players/pending/cristiano-ronaldo.jpg",
       "commonsFilePage": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo,_2023.jpg",
       "sourcePlatform": "Wikimedia Commons",
-      "creator": "Mehrdad Esfahani / SNN",
+      "creator": "Mehrdad Esfahani / Student News Agency (SNN)",
       "creatorStatus": "read-from-commons-description-page",
       "submittedCreatorNote": "Mehdi Marizad",
-      "license": null,
-      "licenseUrl": null,
-      "rightsReviewStatus": "license-needs-verification",
+      "license": "SNN attribution permission (commercial use and redistribution permitted; attribution required; CC BY 4.0 stated as applicable at upload)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo,_2023.jpg",
+      "rightsReviewStatus": "verified-custom-permission-on-source-page",
       "assetStatus": "pending",
       "changesMade": "not-yet-checked-against-original",
-      "attributionDraft": "Photo: Mehrdad Esfahani / SNN. Source: https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo,_2023.jpg. Licence: to be confirmed on source page. Changes: to be confirmed.",
-      "approvedForProduction": false
+      "attributionDraft": "Photo: Mehrdad Esfahani / Student News Agency (SNN). Source: https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo,_2023.jpg. Licence/permission: SNN attribution permission (commercial use and redistribution permitted; attribution required; CC BY 4.0 stated as applicable at upload). Changes: to be confirmed.",
+      "approvedForProduction": false,
+      "verificationNote": "Commons page states SNN permits use for any purpose with attribution and notes SNN was specifically under CC BY 4.0 until 18 March 2025; this file was uploaded 9 September 2024. Preserve attribution to SNN and verify original page terms before release."
     },
     {
       "assetId": "diego-maradona-portrait",
@@ -73,13 +76,14 @@
       "creator": "Bryan Berlin",
       "creatorStatus": "read-from-commons-description-page",
       "submittedCreatorNote": "Filipe Fortes",
-      "license": null,
-      "licenseUrl": null,
-      "rightsReviewStatus": "license-needs-verification",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsReviewStatus": "verified-on-source-page",
       "assetStatus": "pending",
       "changesMade": "not-yet-checked-against-original",
-      "attributionDraft": "Photo: Bryan Berlin. Source: https://commons.wikimedia.org/wiki/File:Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg. Licence: to be confirmed on source page. Changes: to be confirmed.",
-      "approvedForProduction": false
+      "attributionDraft": "Photo: Bryan Berlin. Source: https://commons.wikimedia.org/wiki/File:Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg. Licence/permission: CC BY-SA 4.0. Changes: to be confirmed.",
+      "approvedForProduction": false,
+      "verificationNote": "Commons page confirms own work by Bryan Berlin under CC BY-SA 4.0; personality-rights warning is present."
     },
     {
       "assetId": "gianluigi-buffon-portrait",
@@ -90,13 +94,14 @@
       "creator": "Puma",
       "creatorStatus": "read-from-commons-description-page",
       "submittedCreatorNote": "Biser Todorov",
-      "license": null,
-      "licenseUrl": null,
-      "rightsReviewStatus": "license-needs-verification",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "rightsReviewStatus": "verified-on-source-page",
       "assetStatus": "pending",
       "changesMade": "not-yet-checked-against-original",
-      "attributionDraft": "Photo: Puma. Source: https://commons.wikimedia.org/wiki/File:Gianluigi_Buffon_(2014).jpg. Licence: to be confirmed on source page. Changes: to be confirmed.",
-      "approvedForProduction": false
+      "attributionDraft": "Photo: Puma. Source: https://commons.wikimedia.org/wiki/File:Gianluigi_Buffon_(2014).jpg. Licence/permission: CC BY 3.0. Changes: to be confirmed.",
+      "approvedForProduction": false,
+      "verificationNote": "Commons page confirms author Puma and CC BY 3.0; source listed as mynewsdesk.com (cropped)."
     },
     {
       "assetId": "harry-kane-portrait",
@@ -107,13 +112,14 @@
       "creator": "Kirill Venediktov",
       "creatorStatus": "read-from-commons-description-page",
       "submittedCreatorNote": "Mohammadreza Abbasi",
-      "license": null,
-      "licenseUrl": null,
-      "rightsReviewStatus": "license-needs-verification",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "rightsReviewStatus": "verified-on-source-page",
       "assetStatus": "pending",
       "changesMade": "not-yet-checked-against-original",
-      "attributionDraft": "Photo: Kirill Venediktov. Source: https://commons.wikimedia.org/wiki/File:Harry_Kane_in_Russia_2.jpg. Licence: to be confirmed on source page. Changes: to be confirmed.",
-      "approvedForProduction": false
+      "attributionDraft": "Photo: Kirill Venediktov. Source: https://commons.wikimedia.org/wiki/File:Harry_Kane_in_Russia_2.jpg. Licence/permission: CC BY-SA 3.0. Changes: to be confirmed.",
+      "approvedForProduction": false,
+      "verificationNote": "Commons page confirms soccer.ru source, author Kirill Venediktov and CC BY-SA 3.0; GFDL 1.2 or later is also listed as an alternative."
     },
     {
       "assetId": "jude-bellingham-portrait",
@@ -141,13 +147,14 @@
       "creator": "Bryan Berlin",
       "creatorStatus": "read-from-commons-description-page",
       "submittedCreatorNote": "Alex Carvalho",
-      "license": null,
-      "licenseUrl": null,
-      "rightsReviewStatus": "license-needs-verification",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsReviewStatus": "verified-on-source-page",
       "assetStatus": "pending",
       "changesMade": "not-yet-checked-against-original",
-      "attributionDraft": "Photo: Bryan Berlin. Source: https://commons.wikimedia.org/wiki/File:Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-29.jpg. Licence: to be confirmed on source page. Changes: to be confirmed.",
-      "approvedForProduction": false
+      "attributionDraft": "Photo: Bryan Berlin. Source: https://commons.wikimedia.org/wiki/File:Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-29.jpg. Licence/permission: CC BY-SA 4.0. Changes: to be confirmed.",
+      "approvedForProduction": false,
+      "verificationNote": "Commons page confirms own work by Bryan Berlin under CC BY-SA 4.0; personality-rights warning is present."
     },
     {
       "assetId": "kylian-mbappe-portrait",
@@ -192,13 +199,14 @@
       "creator": "Bryan Berlin",
       "creatorStatus": "read-from-commons-description-page",
       "submittedCreatorNote": "David Holt",
-      "license": null,
-      "licenseUrl": null,
-      "rightsReviewStatus": "license-needs-verification",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsReviewStatus": "verified-on-source-page",
       "assetStatus": "pending",
       "changesMade": "not-yet-checked-against-original",
-      "attributionDraft": "Photo: Bryan Berlin. Source: https://commons.wikimedia.org/wiki/File:Luka_Modric_Croatia_v_Portugal_2_July_2026-153.jpg. Licence: to be confirmed on source page. Changes: to be confirmed.",
-      "approvedForProduction": false
+      "attributionDraft": "Photo: Bryan Berlin. Source: https://commons.wikimedia.org/wiki/File:Luka_Modric_Croatia_v_Portugal_2_July_2026-153.jpg. Licence/permission: CC BY-SA 4.0. Changes: to be confirmed.",
+      "approvedForProduction": false,
+      "verificationNote": "Exact Commons file page confirms Bryan Berlin / WikiPortraits and CC BY-SA 4.0; personality-rights warning is present."
     },
     {
       "assetId": "mohamed-salah-portrait",
@@ -274,16 +282,17 @@
       "filePath": "players/pending/ronaldinho.jpg",
       "commonsFilePage": "https://commons.wikimedia.org/wiki/File:Ronaldinho_11feb2007.jpg",
       "sourcePlatform": "Wikimedia Commons",
-      "creator": null,
+      "creator": "Darz Mol",
       "creatorStatus": "not-yet-confirmed",
       "submittedCreatorNote": "David Holt",
-      "license": null,
-      "licenseUrl": null,
-      "rightsReviewStatus": "creator-and-license-needs-verification",
+      "license": "CC BY-SA 2.5 Spain",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/es/deed.en",
+      "rightsReviewStatus": "verified-on-source-page",
       "assetStatus": "pending",
       "changesMade": "not-yet-checked-against-original",
-      "attributionDraft": "Source: https://commons.wikimedia.org/wiki/File:Ronaldinho_11feb2007.jpg. Creator and licence must be confirmed before use.",
-      "approvedForProduction": false
+      "attributionDraft": "Photo: Darz Mol. Source: https://commons.wikimedia.org/wiki/File:Ronaldinho_11feb2007.jpg. Licence/permission: CC BY-SA 2.5 Spain. Changes: to be confirmed.",
+      "approvedForProduction": false,
+      "verificationNote": "Commons page confirms own work by Darz Mol under CC BY-SA 2.5 Spain."
     },
     {
       "assetId": "thierry-henry-portrait",
@@ -324,16 +333,17 @@
       "filePath": "players/pending/xavi-hernandez.jpg",
       "commonsFilePage": "https://commons.wikimedia.org/wiki/File:Xavi,_Persepolis_vs._Al_Sadd,_20190520_02_(cropped).jpg",
       "sourcePlatform": "Wikimedia Commons",
-      "creator": "Meysam Mehabadi",
+      "creator": "Meysam Mehabadi (photographer); Fars Media Corporation (required attribution)",
       "creatorStatus": "read-from-commons-description-page",
       "submittedCreatorNote": "Mohammadreza Abbasi",
-      "license": null,
-      "licenseUrl": null,
-      "rightsReviewStatus": "license-needs-verification",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "rightsReviewStatus": "verified-on-source-page",
       "assetStatus": "pending",
       "changesMade": "not-yet-checked-against-original",
-      "attributionDraft": "Photo: Meysam Mehabadi. Source: https://commons.wikimedia.org/wiki/File:Xavi,_Persepolis_vs._Al_Sadd,_20190520_02_(cropped).jpg. Licence: to be confirmed on source page. Changes: to be confirmed.",
-      "approvedForProduction": false
+      "attributionDraft": "Photo: Meysam Mehabadi (photographer); Fars Media Corporation (required attribution). Source: https://commons.wikimedia.org/wiki/File:Xavi,_Persepolis_vs._Al_Sadd,_20190520_02_(cropped).jpg. Licence/permission: CC BY 4.0. Changes: to be confirmed.",
+      "approvedForProduction": false,
+      "verificationNote": "Exact cropped Commons page confirms photographer Meysam Mehabadi, Farsnews source, and CC BY 4.0; required attribution is to Fars Media Corporation."
     },
     {
       "assetId": "zinedine-zidane-portrait",

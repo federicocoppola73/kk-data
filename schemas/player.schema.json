@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kitandkick.example/schemas/player.schema.json",
+  "title": "Kit & Kick Player",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "displayName", "asset", "rights"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "displayName": { "type": "string", "minLength": 1 },
+    "nationality": { "type": ["string", "null"] },
+    "position": { "type": ["string", "null"] },
+    "active": { "type": "boolean", "default": true },
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["assetId", "provider", "path"],
+      "properties": {
+        "assetId": { "type": "string" },
+        "provider": { "enum": ["repository", "firebase-storage", "cdn"] },
+        "path": { "type": "string" },
+        "alt": { "type": "string" }
+      }
+    },
+    "rights": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status"],
+      "properties": {
+        "status": { "enum": ["pending", "licensed", "public-domain", "commissioned", "not-approved"] },
+        "source": { "type": ["string", "null"] },
+        "licence": { "type": ["string", "null"] },
+        "attribution": { "type": ["string", "null"] },
+        "evidenceReference": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

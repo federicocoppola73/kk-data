@@ -1,0 +1,25 @@
+{
+  "id": "sample-player-photo-001",
+  "mode": "player-from-photo",
+  "difficulty": "easy",
+  "prompt": {
+    "it": "Quale giocatore è mostrato nell'immagine?",
+    "en": "Which player is shown in the picture?",
+    "es": "¿Qué jugador aparece en la imagen?",
+    "fr": "Quel joueur apparaît sur l’image ?",
+    "de": "Welcher Spieler ist auf dem Bild zu sehen?"
+  },
+  "answer": {
+    "entityType": "player",
+    "entityId": "sample-player-001"
+  },
+  "options": [
+    { "id": "sample-player-001", "label": { "it": "Giocatore di esempio", "en": "Sample Player" } },
+    { "id": "option-b", "label": { "it": "Opzione B", "en": "Option B" } },
+    { "id": "option-c", "label": { "it": "Opzione C", "en": "Option C" } },
+    { "id": "option-d", "label": { "it": "Opzione D", "en": "Option D" } }
+  ],
+  "assetIds": ["sample-player-001-portrait"],
+  "points": 100,
+  "enabled": false
+}

@@ -4,11 +4,11 @@
   "status": "draft",
   "note": "Internal prototype data. Verify all clue values, especially current stadium naming and nickname usage, against official club sources before production.",
   "clueOrder": [
-    "city",
     "foundedYear",
     "colors",
     "stadium",
-    "nickname"
+    "nickname",
+    "city"
   ],
   "revealIntervalMs": 4000,
   "roundLength": 10,
@@ -50,7 +50,8 @@
       "verificationStatus": "partial",
       "sourceUrls": [
         "https://www.fifa.com/en/articles/real-madrid-club-profile-history-players-qualified"
-      ]
+      ],
+      "country": "Spain"
     },
     {
       "id": "barcelona",
@@ -69,7 +70,8 @@
       "difficulty": "easy",
       "basePoints": 100,
       "verificationStatus": "pending",
-      "sourceUrls": []
+      "sourceUrls": [],
+      "country": "Spain"
     },
     {
       "id": "manchester-united",
@@ -91,7 +93,8 @@
       "sourceUrls": [
         "https://ir.manutd.com/company-information/history.aspx",
         "https://www.manutd.com/en/club/history/history-by-decade/1878-1909"
-      ]
+      ],
+      "country": "England"
     },
     {
       "id": "liverpool",
@@ -112,7 +115,8 @@
       "verificationStatus": "partial",
       "sourceUrls": [
         "https://www.liverpoolfc.com/info/how-liverpool-fc-was-founded-1892"
-      ]
+      ],
+      "country": "England"
     },
     {
       "id": "arsenal",
@@ -131,7 +135,8 @@
       "difficulty": "medium",
       "basePoints": 150,
       "verificationStatus": "pending",
-      "sourceUrls": []
+      "sourceUrls": [],
+      "country": "England"
     },
     {
       "id": "chelsea",
@@ -153,7 +158,8 @@
       "sourceUrls": [
         "https://www.chelseafc.com/en/history",
         "https://www.chelseafc.com/en/news/article/founders-day-the-birth-of-the-blues"
-      ]
+      ],
+      "country": "England"
     },
     {
       "id": "manchester-city",
@@ -174,7 +180,8 @@
       "verificationStatus": "partial",
       "sourceUrls": [
         "https://www.fifa.com/en/tournaments/mens/club-world-cup/usa-2025/articles/manchester-city-club-profile-history-players-qualified"
-      ]
+      ],
+      "country": "England"
     },
     {
       "id": "juventus",
@@ -195,7 +202,8 @@
       "verificationStatus": "partial",
       "sourceUrls": [
         "https://www.juventus.com/en/club/history/the-story-of-a-legend"
-      ]
+      ],
+      "country": "Italy"
     },
     {
       "id": "inter",
@@ -217,7 +225,8 @@
       "sourceUrls": [
         "https://www.inter.it/en/club/club-transparency",
         "https://www.fifa.com/en/tournaments/mens/club-world-cup/usa-2025/articles/inter-milan-club-profile-history-players-qualified"
-      ]
+      ],
+      "country": "Italy"
     },
     {
       "id": "ac-milan",
@@ -238,7 +247,8 @@
       "verificationStatus": "partial",
       "sourceUrls": [
         "https://www.acmilan.com/en/club/history"
-      ]
+      ],
+      "country": "Italy"
     },
     {
       "id": "bayern-munich",
@@ -257,7 +267,8 @@
       "difficulty": "hard",
       "basePoints": 200,
       "verificationStatus": "pending",
-      "sourceUrls": []
+      "sourceUrls": [],
+      "country": "Germany"
     },
     {
       "id": "paris-saint-germain",
@@ -278,7 +289,13 @@
       "verificationStatus": "partial",
       "sourceUrls": [
         "https://www.psg.fr/en/the-club/about/identity"
-      ]
+      ],
+      "country": "France"
     }
+  ],
+  "answerDistractorPriority": [
+    "sameCity",
+    "sameCountry",
+    "otherCountries"
   ]
 }

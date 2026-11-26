@@ -1,7 +1,7 @@
 {
   "datasetId": "player-id-starter-20",
-  "datasetVersion": "0.1.0",
-  "notes": "Starter roster for Player ID. Portrait paths are reserved placeholders; records must remain unavailable until image rights are approved and licensed image files are added.",
+  "datasetVersion": "0.2.0",
+  "notes": "Starter roster for Player ID. Portrait files are stored under players/pending. Rights remain pending until each source page, exact licence, attribution, modification history and any applicable image/personality rights are reviewed and approved.",
   "players": [
     {
       "id": "lionel-messi",
@@ -12,15 +12,15 @@
       "asset": {
         "assetId": "lionel-messi-portrait",
         "provider": "repository",
-        "path": "assets/players/pending/lionel-messi.webp",
+        "path": "players/pending/lionel-messi.jpg",
         "alt": "Portrait photo of Lionel Messi"
       },
       "rights": {
         "status": "pending",
-        "source": null,
+        "source": "Wikimedia Commons",
         "licence": null,
         "attribution": null,
-        "evidenceReference": null
+        "evidenceReference": "players/player-image-credits.json#lionel-messi"
       }
     },
     {
@@ -32,15 +32,15 @@
       "asset": {
         "assetId": "cristiano-ronaldo-portrait",
         "provider": "repository",
-        "path": "assets/players/pending/cristiano-ronaldo.webp",
+        "path": "players/pending/cristiano-ronaldo.jpg",
         "alt": "Portrait photo of Cristiano Ronaldo"
       },
       "rights": {
         "status": "pending",
-        "source": null,
+        "source": "Wikimedia Commons",
         "licence": null,
         "attribution": null,
-        "evidenceReference": null
+        "evidenceReference": "players/player-image-credits.json#cristiano-ronaldo"
       }
     },
     {
@@ -52,15 +52,15 @@
       "asset": {
         "assetId": "kylian-mbappe-portrait",
         "provider": "repository",
-        "path": "assets/players/pending/kylian-mbappe.webp",
+        "path": "players/pending/kylian-mbappe.jpg",
         "alt": "Portrait photo of Kylian Mbappé"
       },
       "rights": {
         "status": "pending",
-        "source": null,
+        "source": "Wikimedia Commons",
         "licence": null,
         "attribution": null,
-        "evidenceReference": null
+        "evidenceReference": "players/player-image-credits.json#kylian-mbappe"
       }
     },
     {
@@ -72,15 +72,15 @@
       "asset": {
         "assetId": "erling-haaland-portrait",
         "provider": "repository",
-        "path": "assets/players/pending/erling-haaland.webp",
+        "path": "players/pending/erling-haaland.jpg",
         "alt": "Portrait photo of Erling Haaland"
       },
       "rights": {
         "status": "pending",
-        "source": null,
+        "source": "Wikimedia Commons",
         "licence": null,
         "attribution": null,
-        "evidenceReference": null
+        "evidenceReference": "players/player-image-credits.json#erling-haaland"
       }
     },
     {
@@ -92,15 +92,15 @@
       "asset": {
         "assetId": "mohamed-salah-portrait",
         "provider": "repository",
-        "path": "assets/players/pending/mohamed-salah.webp",
+        "path": "players/pending/mohamed-salah.jpg",
         "alt": "Portrait photo of Mohamed Salah"
       },
       "rights": {
         "status": "pending",
-        "source": null,
+        "source": "Wikimedia Commons",
         "licence": null,
         "attribution": null,
-        "evidenceReference": null
+        "evidenceReference": "players/player-image-credits.json#mohamed-salah"
       }
     },
     {
@@ -112,15 +112,15 @@
       "asset": {
         "assetId": "kevin-de-bruyne-portrait",
         "provider": "repository",
-        "path": "assets/players/pending/kevin-de-bruyne.webp",
+        "path": "players/pending/kevin-de-bruyne.jpg",
         "alt": "Portrait photo of Kevin De Bruyne"
       },
       "rights": {
         "status": "pending",
-        "source": null,
+        "source": "Wikimedia Commons",
         "licence": null,
         "attribution": null,
-        "evidenceReference": null
+        "evidenceReference": "players/player-image-credits.json#kevin-de-bruyne"
       }
     },
     {
@@ -132,15 +132,15 @@
       "asset": {
         "assetId": "vinicius-junior-portrait",
         "provider": "repository",
-        "path": "assets/players/pending/vinicius-junior.webp",
+        "path": "players/pending/vinicius-junior.jpg",
         "alt": "Portrait photo of Vinícius Júnior"
       },
       "rights": {
         "status": "pending",
-        "source": null,
+        "source": "Wikimedia Commons",
         "licence": null,
         "attribution": null,
-        "evidenceReference": null
+        "evidenceReference": "players/player-image-credits.json#vinicius-junior"
       }
     },
     {
@@ -152,15 +152,15 @@
       "asset": {
         "assetId": "jude-bellingham-portrait",
         "provider": "repository",
-        "path": "assets/players/pending/jude-bellingham.webp",
+        "path": "players/pending/jude-bellingham.jpg",
         "alt": "Portrait photo of Jude Bellingham"
       },
       "rights": {
         "status": "pending",
-        "source": null,
+        "source": "Wikimedia Commons",
         "licence": null,
         "attribution": null,
-        "evidenceReference": null
+        "evidenceReference": "players/player-image-credits.json#jude-bellingham"
       }
     },
     {
@@ -172,15 +172,15 @@
       "asset": {
         "assetId": "harry-kane-portrait",
         "provider": "repository",
-        "path": "assets/players/pending/harry-kane.webp",
+        "path": "players/pending/harry-kane.jpg",
         "alt": "Portrait photo of Harry Kane"
       },
       "rights": {
         "status": "pending",
-        "source": null,
+        "source": "Wikimedia Commons",
         "licence": null,
         "attribution": null,
-        "evidenceReference": null
+        "evidenceReference": "players/player-image-credits.json#harry-kane"
       }
     },
     {
@@ -192,15 +192,15 @@
       "asset": {
         "assetId": "robert-lewandowski-portrait",
         "provider": "repository",
-        "path": "assets/players/pending/robert-lewandowski.webp",
+        "path": "players/pending/robert-lewandowski.jpg",
         "alt": "Portrait photo of Robert Lewandowski"
       },
       "rights": {
         "status": "pending",
-        "source": null,
+        "source": "Wikimedia Commons",
         "licence": null,
         "attribution": null,
-        "evidenceReference": null
+        "evidenceReference": "players/player-image-credits.json#robert-lewandowski"
       }
     },
     {
@@ -212,15 +212,15 @@
       "asset": {
         "assetId": "neymar-jr-portrait",
         "provider": "repository",
-        "path": "assets/players/pending/neymar-jr.webp",
+        "path": "players/pending/neymar-jr.jpg",
         "alt": "Portrait photo of Neymar Jr"
       },
       "rights": {
         "status": "pending",
-        "source": null,
+        "source": "Wikimedia Commons",
         "licence": null,
         "attribution": null,
-        "evidenceReference": null
+        "evidenceReference": "players/player-image-credits.json#neymar-jr"
       }
     },
     {
@@ -232,15 +232,15 @@
       "asset": {
         "assetId": "luka-modric-portrait",
         "provider": "repository",
-        "path": "assets/players/pending/luka-modric.webp",
+        "path": "players/pending/luka-modric.jpg",
         "alt": "Portrait photo of Luka Modrić"
       },
       "rights": {
         "status": "pending",
-        "source": null,
+        "source": "Wikimedia Commons",
         "licence": null,
         "attribution": null,
-        "evidenceReference": null
+        "evidenceReference": "players/player-image-credits.json#luka-modric"
       }
     },
     {
@@ -252,15 +252,15 @@
       "asset": {
         "assetId": "andres-iniesta-portrait",
         "provider": "repository",
-        "path": "assets/players/pending/andres-iniesta.webp",
+        "path": "players/pending/andres-iniesta.jpg",
         "alt": "Portrait photo of Andrés Iniesta"
       },
       "rights": {
         "status": "pending",
-        "source": null,
+        "source": "Wikimedia Commons",
         "licence": null,
         "attribution": null,
-        "evidenceReference": null
+        "evidenceReference": "players/player-image-credits.json#andres-iniesta"
       }
     },
     {
@@ -272,15 +272,15 @@
       "asset": {
         "assetId": "xavi-hernandez-portrait",
         "provider": "repository",
-        "path": "assets/players/pending/xavi-hernandez.webp",
+        "path": "players/pending/xavi-hernandez.jpg",
         "alt": "Portrait photo of Xavi Hernández"
       },
       "rights": {
         "status": "pending",
-        "source": null,
+        "source": "Wikimedia Commons",
         "licence": null,
         "attribution": null,
-        "evidenceReference": null
+        "evidenceReference": "players/player-image-credits.json#xavi-hernandez"
       }
     },
     {
@@ -292,15 +292,15 @@
       "asset": {
         "assetId": "zinedine-zidane-portrait",
         "provider": "repository",
-        "path": "assets/players/pending/zinedine-zidane.webp",
+        "path": "players/pending/zinedine-zidane.jpg",
         "alt": "Portrait photo of Zinedine Zidane"
       },
       "rights": {
         "status": "pending",
-        "source": null,
+        "source": "Wikimedia Commons",
         "licence": null,
         "attribution": null,
-        "evidenceReference": null
+        "evidenceReference": "players/player-image-credits.json#zinedine-zidane"
       }
     },
     {
@@ -312,15 +312,15 @@
       "asset": {
         "assetId": "ronaldinho-portrait",
         "provider": "repository",
-        "path": "assets/players/pending/ronaldinho.webp",
+        "path": "players/pending/ronaldinho.jpg",
         "alt": "Portrait photo of Ronaldinho"
       },
       "rights": {
         "status": "pending",
-        "source": null,
+        "source": "Wikimedia Commons",
         "licence": null,
         "attribution": null,
-        "evidenceReference": null
+        "evidenceReference": "players/player-image-credits.json#ronaldinho"
       }
     },
     {
@@ -332,15 +332,15 @@
       "asset": {
         "assetId": "thierry-henry-portrait",
         "provider": "repository",
-        "path": "assets/players/pending/thierry-henry.webp",
+        "path": "players/pending/thierry-henry.jpg",
         "alt": "Portrait photo of Thierry Henry"
       },
       "rights": {
         "status": "pending",
-        "source": null,
+        "source": "Wikimedia Commons",
         "licence": null,
         "attribution": null,
-        "evidenceReference": null
+        "evidenceReference": "players/player-image-credits.json#thierry-henry"
       }
     },
     {
@@ -352,15 +352,15 @@
       "asset": {
         "assetId": "gianluigi-buffon-portrait",
         "provider": "repository",
-        "path": "assets/players/pending/gianluigi-buffon.webp",
+        "path": "players/pending/gianluigi-buffon.jpg",
         "alt": "Portrait photo of Gianluigi Buffon"
       },
       "rights": {
         "status": "pending",
-        "source": null,
+        "source": "Wikimedia Commons",
         "licence": null,
         "attribution": null,
-        "evidenceReference": null
+        "evidenceReference": "players/player-image-credits.json#gianluigi-buffon"
       }
     },
     {
@@ -372,15 +372,15 @@
       "asset": {
         "assetId": "paolo-maldini-portrait",
         "provider": "repository",
-        "path": "assets/players/pending/paolo-maldini.webp",
+        "path": "players/pending/paolo-maldini.jpg",
         "alt": "Portrait photo of Paolo Maldini"
       },
       "rights": {
         "status": "pending",
-        "source": null,
+        "source": "Wikimedia Commons",
         "licence": null,
         "attribution": null,
-        "evidenceReference": null
+        "evidenceReference": "players/player-image-credits.json#paolo-maldini"
       }
     },
     {
@@ -392,15 +392,15 @@
       "asset": {
         "assetId": "diego-maradona-portrait",
         "provider": "repository",
-        "path": "assets/players/pending/diego-maradona.webp",
+        "path": "players/pending/diego-maradona.jpg",
         "alt": "Portrait photo of Diego Maradona"
       },
       "rights": {
         "status": "pending",
-        "source": null,
+        "source": "Wikimedia Commons",
         "licence": null,
         "attribution": null,
-        "evidenceReference": null
+        "evidenceReference": "players/player-image-credits.json#diego-maradona"
       }
     }
   ]

@@ -1,0 +1,20 @@
+{
+  "id": "sample-player-001",
+  "displayName": "Sample Player",
+  "nationality": null,
+  "position": "forward",
+  "active": true,
+  "asset": {
+    "assetId": "sample-player-001-portrait",
+    "provider": "repository",
+    "path": "assets/players/sample-player-001.webp",
+    "alt": "Fictional sample football player portrait"
+  },
+  "rights": {
+    "status": "commissioned",
+    "source": "Original fictional placeholder artwork",
+    "licence": "Project-owned original artwork",
+    "attribution": null,
+    "evidenceReference": null
+  }
+}

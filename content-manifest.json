@@ -1,8 +1,14 @@
 {
   "schemaVersion": "1.0.0",
-  "contentVersion": "0.1.0",
+  "contentVersion": "0.2.0",
   "defaultLocale": "en",
-  "supportedLocales": ["it", "en", "es", "fr", "de"],
+  "supportedLocales": [
+    "it",
+    "en",
+    "es",
+    "fr",
+    "de"
+  ],
   "updatedAt": "2026-11-26",
   "collections": {
     "players": "players/",

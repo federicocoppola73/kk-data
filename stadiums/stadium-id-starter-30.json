@@ -1,0 +1,3684 @@
+{
+  "schemaVersion": "1.0.0",
+  "datasetId": "stadium-id-starter-30",
+  "datasetVersion": "0.1.0",
+  "status": "draft",
+  "defaultLocale": "en",
+  "supportedLocales": [
+    "it",
+    "en"
+  ],
+  "gameRules": {
+    "questionsPerRound": 10,
+    "answerOptions": 4,
+    "cluesPerQuestion": 5,
+    "clueOrder": [
+      "openedYear",
+      "capacity",
+      "notableEvent",
+      "location",
+      "homeTeams"
+    ],
+    "automaticRevealIntervalMs": 4000,
+    "manualRevealEnabled": true,
+    "scoringByClue": [
+      200,
+      160,
+      120,
+      80,
+      40
+    ],
+    "xpPerCorrectAnswer": 25,
+    "distractorPolicy": {
+      "optionCount": 4,
+      "wrongAnswers": 3,
+      "priority": [
+        "sameCity",
+        "sameCountry"
+      ],
+      "allowOtherCountries": false,
+      "selection": "shuffle eligible candidates within each priority tier; take same-city candidates first, then fill remaining slots from the same country",
+      "minimumEligibleAnswers": 3,
+      "failClosed": true,
+      "fallback": "If fewer than three eligible same-city or same-country distractors exist, do not serve the question; flag the record for dataset expansion."
+    }
+  },
+  "datasetNotes": [
+    "Thirty stadium records across England, Spain, Italy, Germany, Brazil and Mexico.",
+    "Five records per country ensure a same-country candidate pool for every question.",
+    "Same-city distractors are preferred; same-country distractors fill any remaining slots.",
+    "No cross-country distractors are allowed.",
+    "Illustration paths are planned only; no image files are included in this commit.",
+    "All records are disabled and require editorial/source review before production."
+  ],
+  "records": [
+    {
+      "id": "wembley",
+      "name": "Wembley Stadium",
+      "shortName": "Wembley",
+      "aliases": [],
+      "location": {
+        "city": "London",
+        "cityIt": "Londra",
+        "country": "England",
+        "countryIt": "Inghilterra",
+        "countryCode": "GB",
+        "continent": "Europe"
+      },
+      "openedYear": 2007,
+      "capacity": {
+        "approximate": 90000,
+        "displayIt": "circa 90.000 posti",
+        "displayEn": "around 90,000 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Finale UEFA Champions League 2024",
+        "en": "2024 UEFA Champions League Final",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "England national football team",
+          "displayIt": "Nazionale inglese"
+        },
+        {
+          "name": "National stadium",
+          "displayIt": "Stadio nazionale"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "2007",
+            "en": "2007"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 90.000 posti",
+            "en": "around 90,000 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Finale UEFA Champions League 2024",
+            "en": "2024 UEFA Champions League Final"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Londra, Inghilterra",
+            "en": "London, England"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "Nazionale inglese, Stadio nazionale",
+            "en": "England national football team, National stadium"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-wembley-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/wembley.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Wembley Stadium",
+          "en": "Original illustration of Wembley Stadium"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "old-trafford",
+      "name": "Old Trafford",
+      "shortName": "Old Trafford",
+      "aliases": [],
+      "location": {
+        "city": "Manchester",
+        "cityIt": "Manchester",
+        "country": "England",
+        "countryIt": "Inghilterra",
+        "countryCode": "GB",
+        "continent": "Europe"
+      },
+      "openedYear": 1910,
+      "capacity": {
+        "approximate": 74310,
+        "displayIt": "circa 74.310 posti",
+        "displayEn": "around 74,310 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Finale UEFA Champions League 2003",
+        "en": "2003 UEFA Champions League Final",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "Manchester United",
+          "displayIt": "Manchester United"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "1910",
+            "en": "1910"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 74.310 posti",
+            "en": "around 74,310 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Finale UEFA Champions League 2003",
+            "en": "2003 UEFA Champions League Final"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Manchester, Inghilterra",
+            "en": "Manchester, England"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "Manchester United",
+            "en": "Manchester United"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-old-trafford-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/old-trafford.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Old Trafford",
+          "en": "Original illustration of Old Trafford"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "anfield",
+      "name": "Anfield",
+      "shortName": "Anfield",
+      "aliases": [],
+      "location": {
+        "city": "Liverpool",
+        "cityIt": "Liverpool",
+        "country": "England",
+        "countryIt": "Inghilterra",
+        "countryCode": "GB",
+        "continent": "Europe"
+      },
+      "openedYear": 1884,
+      "capacity": {
+        "approximate": 61276,
+        "displayIt": "circa 61.276 posti",
+        "displayEn": "around 61,276 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Finale UEFA Champions League 2005",
+        "en": "2005 UEFA Champions League Final",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "Liverpool FC",
+          "displayIt": "Liverpool FC"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "1884",
+            "en": "1884"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 61.276 posti",
+            "en": "around 61,276 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Finale UEFA Champions League 2005",
+            "en": "2005 UEFA Champions League Final"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Liverpool, Inghilterra",
+            "en": "Liverpool, England"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "Liverpool FC",
+            "en": "Liverpool FC"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-anfield-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/anfield.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Anfield",
+          "en": "Original illustration of Anfield"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "emirates-stadium",
+      "name": "Emirates Stadium",
+      "shortName": "Emirates",
+      "aliases": [],
+      "location": {
+        "city": "London",
+        "cityIt": "Londra",
+        "country": "England",
+        "countryIt": "Inghilterra",
+        "countryCode": "GB",
+        "continent": "Europe"
+      },
+      "openedYear": 2006,
+      "capacity": {
+        "approximate": 60704,
+        "displayIt": "circa 60.704 posti",
+        "displayEn": "around 60,704 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Prima partita ufficiale: Arsenal–Aston Villa, 2006",
+        "en": "First competitive match: Arsenal v Aston Villa, 2006",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "Arsenal FC",
+          "displayIt": "Arsenal FC"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "2006",
+            "en": "2006"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 60.704 posti",
+            "en": "around 60,704 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Prima partita ufficiale: Arsenal–Aston Villa, 2006",
+            "en": "First competitive match: Arsenal v Aston Villa, 2006"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Londra, Inghilterra",
+            "en": "London, England"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "Arsenal FC",
+            "en": "Arsenal FC"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-emirates-stadium-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/emirates-stadium.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Emirates Stadium",
+          "en": "Original illustration of Emirates Stadium"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "tottenham-hotspur-stadium",
+      "name": "Tottenham Hotspur Stadium",
+      "shortName": "Tottenham Hotspur Stadium",
+      "aliases": [],
+      "location": {
+        "city": "London",
+        "cityIt": "Londra",
+        "country": "England",
+        "countryIt": "Inghilterra",
+        "countryCode": "GB",
+        "continent": "Europe"
+      },
+      "openedYear": 2019,
+      "capacity": {
+        "approximate": 62850,
+        "displayIt": "circa 62.850 posti",
+        "displayEn": "around 62,850 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Prima partita ufficiale: Tottenham–Crystal Palace, 2019",
+        "en": "First competitive match: Tottenham v Crystal Palace, 2019",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "Tottenham Hotspur",
+          "displayIt": "Tottenham Hotspur"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "2019",
+            "en": "2019"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 62.850 posti",
+            "en": "around 62,850 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Prima partita ufficiale: Tottenham–Crystal Palace, 2019",
+            "en": "First competitive match: Tottenham v Crystal Palace, 2019"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Londra, Inghilterra",
+            "en": "London, England"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "Tottenham Hotspur",
+            "en": "Tottenham Hotspur"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-tottenham-hotspur-stadium-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/tottenham-hotspur-stadium.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Tottenham Hotspur Stadium",
+          "en": "Original illustration of Tottenham Hotspur Stadium"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "santiago-bernabeu",
+      "name": "Santiago Bernabéu",
+      "shortName": "Bernabéu",
+      "aliases": [],
+      "location": {
+        "city": "Madrid",
+        "cityIt": "Madrid",
+        "country": "Spain",
+        "countryIt": "Spagna",
+        "countryCode": "ES",
+        "continent": "Europe"
+      },
+      "openedYear": 1947,
+      "capacity": {
+        "approximate": 83186,
+        "displayIt": "circa 83.186 posti (dato pre-ristrutturazione finale da ricontrollare)",
+        "displayEn": "around 83,186 seats (recheck after redevelopment)",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Finale della Coppa del Mondo FIFA 1982",
+        "en": "1982 FIFA World Cup Final",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "Real Madrid",
+          "displayIt": "Real Madrid"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "1947",
+            "en": "1947"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 83.186 posti (dato pre-ristrutturazione finale da ricontrollare)",
+            "en": "around 83,186 seats (recheck after redevelopment)"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Finale della Coppa del Mondo FIFA 1982",
+            "en": "1982 FIFA World Cup Final"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Madrid, Spagna",
+            "en": "Madrid, Spain"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "Real Madrid",
+            "en": "Real Madrid"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-santiago-bernabeu-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/santiago-bernabeu.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Santiago Bernabéu",
+          "en": "Original illustration of Santiago Bernabéu"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "metropolitano",
+      "name": "Riyadh Air Metropolitano",
+      "shortName": "Metropolitano",
+      "aliases": [],
+      "location": {
+        "city": "Madrid",
+        "cityIt": "Madrid",
+        "country": "Spain",
+        "countryIt": "Spagna",
+        "countryCode": "ES",
+        "continent": "Europe"
+      },
+      "openedYear": 2017,
+      "capacity": {
+        "approximate": 70460,
+        "displayIt": "circa 70.460 posti",
+        "displayEn": "around 70,460 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Finale UEFA Champions League 2019",
+        "en": "2019 UEFA Champions League Final",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "Atlético de Madrid",
+          "displayIt": "Atlético de Madrid"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "2017",
+            "en": "2017"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 70.460 posti",
+            "en": "around 70,460 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Finale UEFA Champions League 2019",
+            "en": "2019 UEFA Champions League Final"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Madrid, Spagna",
+            "en": "Madrid, Spain"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "Atlético de Madrid",
+            "en": "Atlético de Madrid"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-metropolitano-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/metropolitano.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Riyadh Air Metropolitano",
+          "en": "Original illustration of Riyadh Air Metropolitano"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "mestalla",
+      "name": "Mestalla",
+      "shortName": "Mestalla",
+      "aliases": [],
+      "location": {
+        "city": "Valencia",
+        "cityIt": "Valencia",
+        "country": "Spain",
+        "countryIt": "Spagna",
+        "countryCode": "ES",
+        "continent": "Europe"
+      },
+      "openedYear": 1923,
+      "capacity": {
+        "approximate": 49430,
+        "displayIt": "circa 49.430 posti",
+        "displayEn": "around 49,430 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Partite della Coppa del Mondo FIFA 1982",
+        "en": "1982 FIFA World Cup matches",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "Valencia CF",
+          "displayIt": "Valencia CF"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "1923",
+            "en": "1923"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 49.430 posti",
+            "en": "around 49,430 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Partite della Coppa del Mondo FIFA 1982",
+            "en": "1982 FIFA World Cup matches"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Valencia, Spagna",
+            "en": "Valencia, Spain"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "Valencia CF",
+            "en": "Valencia CF"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-mestalla-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/mestalla.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Mestalla",
+          "en": "Original illustration of Mestalla"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "san-mames",
+      "name": "San Mamés",
+      "shortName": "San Mamés",
+      "aliases": [],
+      "location": {
+        "city": "Bilbao",
+        "cityIt": "Bilbao",
+        "country": "Spain",
+        "countryIt": "Spagna",
+        "countryCode": "ES",
+        "continent": "Europe"
+      },
+      "openedYear": 2013,
+      "capacity": {
+        "approximate": 53289,
+        "displayIt": "circa 53.289 posti",
+        "displayEn": "around 53,289 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Finale UEFA Europa League 2025",
+        "en": "2025 UEFA Europa League Final",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "Athletic Club",
+          "displayIt": "Athletic Club"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "2013",
+            "en": "2013"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 53.289 posti",
+            "en": "around 53,289 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Finale UEFA Europa League 2025",
+            "en": "2025 UEFA Europa League Final"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Bilbao, Spagna",
+            "en": "Bilbao, Spain"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "Athletic Club",
+            "en": "Athletic Club"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-san-mames-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/san-mames.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio San Mamés",
+          "en": "Original illustration of San Mamés"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "benito-villamarin",
+      "name": "Estadio Benito Villamarín",
+      "shortName": "Benito Villamarín",
+      "aliases": [],
+      "location": {
+        "city": "Seville",
+        "cityIt": "Siviglia",
+        "country": "Spain",
+        "countryIt": "Spagna",
+        "countryCode": "ES",
+        "continent": "Europe"
+      },
+      "openedYear": 1929,
+      "capacity": {
+        "approximate": 60721,
+        "displayIt": "circa 60.721 posti",
+        "displayEn": "around 60,721 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Sede di partite internazionali e della nazionale spagnola",
+        "en": "Venue for international matches and Spain national-team fixtures",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "Real Betis",
+          "displayIt": "Real Betis"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "1929",
+            "en": "1929"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 60.721 posti",
+            "en": "around 60,721 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Sede di partite internazionali e della nazionale spagnola",
+            "en": "Venue for international matches and Spain national-team fixtures"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Siviglia, Spagna",
+            "en": "Seville, Spain"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "Real Betis",
+            "en": "Real Betis"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-benito-villamarin-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/benito-villamarin.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Estadio Benito Villamarín",
+          "en": "Original illustration of Estadio Benito Villamarín"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "san-siro",
+      "name": "Stadio Giuseppe Meazza (San Siro)",
+      "shortName": "San Siro",
+      "aliases": [],
+      "location": {
+        "city": "Milan",
+        "cityIt": "Milano",
+        "country": "Italy",
+        "countryIt": "Italia",
+        "countryCode": "IT",
+        "continent": "Europe"
+      },
+      "openedYear": 1926,
+      "capacity": {
+        "approximate": 75817,
+        "displayIt": "circa 75.817 posti (capienza variabile per evento)",
+        "displayEn": "around 75,817 seats (event-dependent capacity)",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Finale UEFA Champions League 2016",
+        "en": "2016 UEFA Champions League Final",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "Inter",
+          "displayIt": "Inter"
+        },
+        {
+          "name": "AC Milan",
+          "displayIt": "AC Milan"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "1926",
+            "en": "1926"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 75.817 posti (capienza variabile per evento)",
+            "en": "around 75,817 seats (event-dependent capacity)"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Finale UEFA Champions League 2016",
+            "en": "2016 UEFA Champions League Final"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Milano, Italia",
+            "en": "Milan, Italy"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "Inter, AC Milan",
+            "en": "Inter, AC Milan"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-san-siro-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/san-siro.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Stadio Giuseppe Meazza (San Siro)",
+          "en": "Original illustration of Stadio Giuseppe Meazza (San Siro)"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "allianz-stadium",
+      "name": "Allianz Stadium",
+      "shortName": "Allianz Stadium",
+      "aliases": [],
+      "location": {
+        "city": "Turin",
+        "cityIt": "Torino",
+        "country": "Italy",
+        "countryIt": "Italia",
+        "countryCode": "IT",
+        "continent": "Europe"
+      },
+      "openedYear": 2011,
+      "capacity": {
+        "approximate": 41507,
+        "displayIt": "circa 41.507 posti",
+        "displayEn": "around 41,507 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Finale UEFA Europa League 2014",
+        "en": "2014 UEFA Europa League Final",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "Juventus",
+          "displayIt": "Juventus"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "2011",
+            "en": "2011"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 41.507 posti",
+            "en": "around 41,507 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Finale UEFA Europa League 2014",
+            "en": "2014 UEFA Europa League Final"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Torino, Italia",
+            "en": "Turin, Italy"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "Juventus",
+            "en": "Juventus"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-allianz-stadium-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/allianz-stadium.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Allianz Stadium",
+          "en": "Original illustration of Allianz Stadium"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "stadio-olimpico-rome",
+      "name": "Stadio Olimpico",
+      "shortName": "Olimpico",
+      "aliases": [],
+      "location": {
+        "city": "Rome",
+        "cityIt": "Roma",
+        "country": "Italy",
+        "countryIt": "Italia",
+        "countryCode": "IT",
+        "continent": "Europe"
+      },
+      "openedYear": 1953,
+      "capacity": {
+        "approximate": 70634,
+        "displayIt": "circa 70.634 posti",
+        "displayEn": "around 70,634 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Finale della Coppa del Mondo FIFA 1990",
+        "en": "1990 FIFA World Cup Final",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "AS Roma",
+          "displayIt": "AS Roma"
+        },
+        {
+          "name": "SS Lazio",
+          "displayIt": "SS Lazio"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "1953",
+            "en": "1953"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 70.634 posti",
+            "en": "around 70,634 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Finale della Coppa del Mondo FIFA 1990",
+            "en": "1990 FIFA World Cup Final"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Roma, Italia",
+            "en": "Rome, Italy"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "AS Roma, SS Lazio",
+            "en": "AS Roma, SS Lazio"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-stadio-olimpico-rome-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/stadio-olimpico-rome.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Stadio Olimpico",
+          "en": "Original illustration of Stadio Olimpico"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "diego-armando-maradona",
+      "name": "Stadio Diego Armando Maradona",
+      "shortName": "Maradona",
+      "aliases": [],
+      "location": {
+        "city": "Naples",
+        "cityIt": "Napoli",
+        "country": "Italy",
+        "countryIt": "Italia",
+        "countryCode": "IT",
+        "continent": "Europe"
+      },
+      "openedYear": 1959,
+      "capacity": {
+        "approximate": 54726,
+        "displayIt": "circa 54.726 posti",
+        "displayEn": "around 54,726 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Semifinale della Coppa del Mondo FIFA 1990: Italia–Argentina",
+        "en": "1990 FIFA World Cup semi-final: Italy v Argentina",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "SSC Napoli",
+          "displayIt": "SSC Napoli"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "1959",
+            "en": "1959"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 54.726 posti",
+            "en": "around 54,726 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Semifinale della Coppa del Mondo FIFA 1990: Italia–Argentina",
+            "en": "1990 FIFA World Cup semi-final: Italy v Argentina"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Napoli, Italia",
+            "en": "Naples, Italy"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "SSC Napoli",
+            "en": "SSC Napoli"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-diego-armando-maradona-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/diego-armando-maradona.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Stadio Diego Armando Maradona",
+          "en": "Original illustration of Stadio Diego Armando Maradona"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "gewiss-stadium",
+      "name": "New Balance Arena (Gewiss Stadium)",
+      "shortName": "Gewiss Stadium",
+      "aliases": [],
+      "location": {
+        "city": "Bergamo",
+        "cityIt": "Bergamo",
+        "country": "Italy",
+        "countryIt": "Italia",
+        "countryCode": "IT",
+        "continent": "Europe"
+      },
+      "openedYear": 1928,
+      "capacity": {
+        "approximate": 24950,
+        "displayIt": "circa 24.950 posti (dato da verificare dopo i lavori)",
+        "displayEn": "around 24,950 seats (verify after redevelopment)",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Riapertura dopo la riqualificazione principale, 2019",
+        "en": "Reopened after major redevelopment, 2019",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "Atalanta BC",
+          "displayIt": "Atalanta BC"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "1928",
+            "en": "1928"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 24.950 posti (dato da verificare dopo i lavori)",
+            "en": "around 24,950 seats (verify after redevelopment)"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Riapertura dopo la riqualificazione principale, 2019",
+            "en": "Reopened after major redevelopment, 2019"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Bergamo, Italia",
+            "en": "Bergamo, Italy"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "Atalanta BC",
+            "en": "Atalanta BC"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-gewiss-stadium-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/gewiss-stadium.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio New Balance Arena (Gewiss Stadium)",
+          "en": "Original illustration of New Balance Arena (Gewiss Stadium)"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "allianz-arena",
+      "name": "Allianz Arena",
+      "shortName": "Allianz Arena",
+      "aliases": [],
+      "location": {
+        "city": "Munich",
+        "cityIt": "Monaco di Baviera",
+        "country": "Germany",
+        "countryIt": "Germania",
+        "countryCode": "DE",
+        "continent": "Europe"
+      },
+      "openedYear": 2005,
+      "capacity": {
+        "approximate": 75024,
+        "displayIt": "75.024 posti per le partite nazionali",
+        "displayEn": "75,024 for domestic matches",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Finale UEFA Champions League 2012",
+        "en": "2012 UEFA Champions League Final",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "FC Bayern München",
+          "displayIt": "FC Bayern München"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "2005",
+            "en": "2005"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "75.024 posti per le partite nazionali",
+            "en": "75,024 for domestic matches"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Finale UEFA Champions League 2012",
+            "en": "2012 UEFA Champions League Final"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Monaco di Baviera, Germania",
+            "en": "Munich, Germany"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "FC Bayern München",
+            "en": "FC Bayern München"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-allianz-arena-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/allianz-arena.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Allianz Arena",
+          "en": "Original illustration of Allianz Arena"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "signal-iduna-park",
+      "name": "Signal Iduna Park (Westfalenstadion)",
+      "shortName": "Signal Iduna Park",
+      "aliases": [],
+      "location": {
+        "city": "Dortmund",
+        "cityIt": "Dortmund",
+        "country": "Germany",
+        "countryIt": "Germania",
+        "countryCode": "DE",
+        "continent": "Europe"
+      },
+      "openedYear": 1974,
+      "capacity": {
+        "approximate": 81365,
+        "displayIt": "circa 81.365 posti",
+        "displayEn": "around 81,365 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Finale Coppa UEFA 2001",
+        "en": "2001 UEFA Cup Final",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "Borussia Dortmund",
+          "displayIt": "Borussia Dortmund"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "1974",
+            "en": "1974"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 81.365 posti",
+            "en": "around 81,365 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Finale Coppa UEFA 2001",
+            "en": "2001 UEFA Cup Final"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Dortmund, Germania",
+            "en": "Dortmund, Germany"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "Borussia Dortmund",
+            "en": "Borussia Dortmund"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-signal-iduna-park-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/signal-iduna-park.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Signal Iduna Park (Westfalenstadion)",
+          "en": "Original illustration of Signal Iduna Park (Westfalenstadion)"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "olympiastadion-berlin",
+      "name": "Olympiastadion Berlin",
+      "shortName": "Olympiastadion",
+      "aliases": [],
+      "location": {
+        "city": "Berlin",
+        "cityIt": "Berlino",
+        "country": "Germany",
+        "countryIt": "Germania",
+        "countryCode": "DE",
+        "continent": "Europe"
+      },
+      "openedYear": 1936,
+      "capacity": {
+        "approximate": 73779,
+        "displayIt": "73.779 posti",
+        "displayEn": "73,779 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Finale della Coppa del Mondo FIFA 2006",
+        "en": "2006 FIFA World Cup Final",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "Hertha BSC",
+          "displayIt": "Hertha BSC"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "1936",
+            "en": "1936"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "73.779 posti",
+            "en": "73,779 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Finale della Coppa del Mondo FIFA 2006",
+            "en": "2006 FIFA World Cup Final"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Berlino, Germania",
+            "en": "Berlin, Germany"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "Hertha BSC",
+            "en": "Hertha BSC"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-olympiastadion-berlin-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/olympiastadion-berlin.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Olympiastadion Berlin",
+          "en": "Original illustration of Olympiastadion Berlin"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "deutsche-bank-park",
+      "name": "Deutsche Bank Park",
+      "shortName": "Deutsche Bank Park",
+      "aliases": [],
+      "location": {
+        "city": "Frankfurt",
+        "cityIt": "Francoforte",
+        "country": "Germany",
+        "countryIt": "Germania",
+        "countryCode": "DE",
+        "continent": "Europe"
+      },
+      "openedYear": 1925,
+      "capacity": {
+        "approximate": 58000,
+        "displayIt": "circa 58.000 posti",
+        "displayEn": "around 58,000 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Partite della Coppa del Mondo FIFA 2006",
+        "en": "2006 FIFA World Cup matches",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "Eintracht Frankfurt",
+          "displayIt": "Eintracht Frankfurt"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "1925",
+            "en": "1925"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 58.000 posti",
+            "en": "around 58,000 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Partite della Coppa del Mondo FIFA 2006",
+            "en": "2006 FIFA World Cup matches"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Francoforte, Germania",
+            "en": "Frankfurt, Germany"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "Eintracht Frankfurt",
+            "en": "Eintracht Frankfurt"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-deutsche-bank-park-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/deutsche-bank-park.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Deutsche Bank Park",
+          "en": "Original illustration of Deutsche Bank Park"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "mhparena",
+      "name": "MHPArena",
+      "shortName": "MHPArena",
+      "aliases": [],
+      "location": {
+        "city": "Stuttgart",
+        "cityIt": "Stoccarda",
+        "country": "Germany",
+        "countryIt": "Germania",
+        "countryCode": "DE",
+        "continent": "Europe"
+      },
+      "openedYear": 1933,
+      "capacity": {
+        "approximate": 60058,
+        "displayIt": "circa 60.058 posti",
+        "displayEn": "around 60,058 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Partite della Coppa del Mondo FIFA 2006",
+        "en": "2006 FIFA World Cup matches",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "VfB Stuttgart",
+          "displayIt": "VfB Stuttgart"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "1933",
+            "en": "1933"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 60.058 posti",
+            "en": "around 60,058 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Partite della Coppa del Mondo FIFA 2006",
+            "en": "2006 FIFA World Cup matches"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Stoccarda, Germania",
+            "en": "Stuttgart, Germany"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "VfB Stuttgart",
+            "en": "VfB Stuttgart"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-mhparena-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/mhparena.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio MHPArena",
+          "en": "Original illustration of MHPArena"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "maracana",
+      "name": "Estádio do Maracanã",
+      "shortName": "Maracanã",
+      "aliases": [],
+      "location": {
+        "city": "Rio de Janeiro",
+        "cityIt": "Rio de Janeiro",
+        "country": "Brazil",
+        "countryIt": "Brasile",
+        "countryCode": "BR",
+        "continent": "South America"
+      },
+      "openedYear": 1950,
+      "capacity": {
+        "approximate": 78838,
+        "displayIt": "circa 78.838 posti (configurazione variabile)",
+        "displayEn": "around 78,838 seats (configuration varies)",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Finale della Coppa del Mondo FIFA 2014",
+        "en": "2014 FIFA World Cup Final",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "Flamengo",
+          "displayIt": "Flamengo"
+        },
+        {
+          "name": "Fluminense",
+          "displayIt": "Fluminense"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "1950",
+            "en": "1950"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 78.838 posti (configurazione variabile)",
+            "en": "around 78,838 seats (configuration varies)"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Finale della Coppa del Mondo FIFA 2014",
+            "en": "2014 FIFA World Cup Final"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Rio de Janeiro, Brasile",
+            "en": "Rio de Janeiro, Brazil"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "Flamengo, Fluminense",
+            "en": "Flamengo, Fluminense"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-maracana-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/maracana.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Estádio do Maracanã",
+          "en": "Original illustration of Estádio do Maracanã"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "morumbi",
+      "name": "Estádio do Morumbi",
+      "shortName": "Morumbi",
+      "aliases": [],
+      "location": {
+        "city": "São Paulo",
+        "cityIt": "San Paolo",
+        "country": "Brazil",
+        "countryIt": "Brasile",
+        "countryCode": "BR",
+        "continent": "South America"
+      },
+      "openedYear": 1960,
+      "capacity": {
+        "approximate": 66795,
+        "displayIt": "circa 66.795 posti",
+        "displayEn": "around 66,795 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Partita inaugurale della Copa América 2019",
+        "en": "2019 Copa América opening match",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "São Paulo FC",
+          "displayIt": "São Paulo FC"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "1960",
+            "en": "1960"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 66.795 posti",
+            "en": "around 66,795 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Partita inaugurale della Copa América 2019",
+            "en": "2019 Copa América opening match"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "San Paolo, Brasile",
+            "en": "São Paulo, Brazil"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "São Paulo FC",
+            "en": "São Paulo FC"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-morumbi-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/morumbi.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Estádio do Morumbi",
+          "en": "Original illustration of Estádio do Morumbi"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "allianz-parque",
+      "name": "Allianz Parque",
+      "shortName": "Allianz Parque",
+      "aliases": [],
+      "location": {
+        "city": "São Paulo",
+        "cityIt": "San Paolo",
+        "country": "Brazil",
+        "countryIt": "Brasile",
+        "countryCode": "BR",
+        "continent": "South America"
+      },
+      "openedYear": 2014,
+      "capacity": {
+        "approximate": 43713,
+        "displayIt": "circa 43.713 posti",
+        "displayEn": "around 43,713 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Partite della Copa América 2019",
+        "en": "2019 Copa América matches",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "SE Palmeiras",
+          "displayIt": "SE Palmeiras"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "2014",
+            "en": "2014"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 43.713 posti",
+            "en": "around 43,713 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Partite della Copa América 2019",
+            "en": "2019 Copa América matches"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "San Paolo, Brasile",
+            "en": "São Paulo, Brazil"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "SE Palmeiras",
+            "en": "SE Palmeiras"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-allianz-parque-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/allianz-parque.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Allianz Parque",
+          "en": "Original illustration of Allianz Parque"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "neo-quimica-arena",
+      "name": "Neo Química Arena",
+      "shortName": "Neo Química Arena",
+      "aliases": [],
+      "location": {
+        "city": "São Paulo",
+        "cityIt": "San Paolo",
+        "country": "Brazil",
+        "countryIt": "Brasile",
+        "countryCode": "BR",
+        "continent": "South America"
+      },
+      "openedYear": 2014,
+      "capacity": {
+        "approximate": 49205,
+        "displayIt": "circa 49.205 posti",
+        "displayEn": "around 49,205 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Partita inaugurale della Coppa del Mondo FIFA 2014",
+        "en": "2014 FIFA World Cup opening match",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "SC Corinthians Paulista",
+          "displayIt": "SC Corinthians Paulista"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "2014",
+            "en": "2014"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 49.205 posti",
+            "en": "around 49,205 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Partita inaugurale della Coppa del Mondo FIFA 2014",
+            "en": "2014 FIFA World Cup opening match"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "San Paolo, Brasile",
+            "en": "São Paulo, Brazil"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "SC Corinthians Paulista",
+            "en": "SC Corinthians Paulista"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-neo-quimica-arena-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/neo-quimica-arena.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Neo Química Arena",
+          "en": "Original illustration of Neo Química Arena"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "arena-do-gremio",
+      "name": "Arena do Grêmio",
+      "shortName": "Arena do Grêmio",
+      "aliases": [],
+      "location": {
+        "city": "Porto Alegre",
+        "cityIt": "Porto Alegre",
+        "country": "Brazil",
+        "countryIt": "Brasile",
+        "countryCode": "BR",
+        "continent": "South America"
+      },
+      "openedYear": 2013,
+      "capacity": {
+        "approximate": 55662,
+        "displayIt": "circa 55.662 posti",
+        "displayEn": "around 55,662 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Partite della Copa América 2019",
+        "en": "2019 Copa América matches",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "Grêmio FBPA",
+          "displayIt": "Grêmio FBPA"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "2013",
+            "en": "2013"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 55.662 posti",
+            "en": "around 55,662 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Partite della Copa América 2019",
+            "en": "2019 Copa América matches"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Porto Alegre, Brasile",
+            "en": "Porto Alegre, Brazil"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "Grêmio FBPA",
+            "en": "Grêmio FBPA"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-arena-do-gremio-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/arena-do-gremio.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Arena do Grêmio",
+          "en": "Original illustration of Arena do Grêmio"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "estadio-azteca",
+      "name": "Estadio Azteca (Estadio Banorte)",
+      "shortName": "Estadio Azteca",
+      "aliases": [],
+      "location": {
+        "city": "Mexico City",
+        "cityIt": "Città del Messico",
+        "country": "Mexico",
+        "countryIt": "Messico",
+        "countryCode": "MX",
+        "continent": "North America"
+      },
+      "openedYear": 1966,
+      "capacity": {
+        "approximate": 87523,
+        "displayIt": "circa 87.500 posti (dato storico, ricontrollare dopo i lavori)",
+        "displayEn": "around 87,500 seats (historical figure; recheck after works)",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Finali della Coppa del Mondo FIFA 1970 e 1986",
+        "en": "1970 and 1986 FIFA World Cup Finals",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "Club América",
+          "displayIt": "Club América"
+        },
+        {
+          "name": "Cruz Azul (utilizzo recente; da verificare per stagione)",
+          "displayIt": "Cruz Azul (utilizzo recente; da verificare per stagione)"
+        },
+        {
+          "name": "Messico – nazionale",
+          "displayIt": "Nazionale messicana"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "1966",
+            "en": "1966"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 87.500 posti (dato storico, ricontrollare dopo i lavori)",
+            "en": "around 87,500 seats (historical figure; recheck after works)"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Finali della Coppa del Mondo FIFA 1970 e 1986",
+            "en": "1970 and 1986 FIFA World Cup Finals"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Città del Messico, Messico",
+            "en": "Mexico City, Mexico"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "Club América, Cruz Azul (utilizzo recente; da verificare per stagione), Nazionale messicana",
+            "en": "Club América, Cruz Azul (utilizzo recente; da verificare per stagione), Messico – nazionale"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-estadio-azteca-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/estadio-azteca.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Estadio Azteca (Estadio Banorte)",
+          "en": "Original illustration of Estadio Azteca (Estadio Banorte)"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "olimpico-universitario",
+      "name": "Estadio Olímpico Universitario",
+      "shortName": "Olímpico Universitario",
+      "aliases": [],
+      "location": {
+        "city": "Mexico City",
+        "cityIt": "Città del Messico",
+        "country": "Mexico",
+        "countryIt": "Messico",
+        "countryCode": "MX",
+        "continent": "North America"
+      },
+      "openedYear": 1952,
+      "capacity": {
+        "approximate": 72000,
+        "displayIt": "circa 72.000 posti (da verificare)",
+        "displayEn": "around 72,000 seats (verify)",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Partite del torneo olimpico di calcio 1968 (da verificare)",
+        "en": "1968 Olympic football tournament matches (verify)",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "Pumas UNAM",
+          "displayIt": "Pumas UNAM"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "1952",
+            "en": "1952"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 72.000 posti (da verificare)",
+            "en": "around 72,000 seats (verify)"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Partite del torneo olimpico di calcio 1968 (da verificare)",
+            "en": "1968 Olympic football tournament matches (verify)"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Città del Messico, Messico",
+            "en": "Mexico City, Mexico"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "Pumas UNAM",
+            "en": "Pumas UNAM"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-olimpico-universitario-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/olimpico-universitario.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Estadio Olímpico Universitario",
+          "en": "Original illustration of Estadio Olímpico Universitario"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "estadio-jalisco",
+      "name": "Estadio Jalisco",
+      "shortName": "Jalisco",
+      "aliases": [],
+      "location": {
+        "city": "Guadalajara",
+        "cityIt": "Guadalajara",
+        "country": "Mexico",
+        "countryIt": "Messico",
+        "countryCode": "MX",
+        "continent": "North America"
+      },
+      "openedYear": 1960,
+      "capacity": {
+        "approximate": 55020,
+        "displayIt": "circa 55.020 posti",
+        "displayEn": "around 55,020 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Partite delle Coppe del Mondo FIFA 1970 e 1986",
+        "en": "1970 and 1986 FIFA World Cup matches",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "Atlas FC",
+          "displayIt": "Atlas FC"
+        },
+        {
+          "name": "Leones Negros UdeG",
+          "displayIt": "Leones Negros UdeG"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "1960",
+            "en": "1960"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 55.020 posti",
+            "en": "around 55,020 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Partite delle Coppe del Mondo FIFA 1970 e 1986",
+            "en": "1970 and 1986 FIFA World Cup matches"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Guadalajara, Messico",
+            "en": "Guadalajara, Mexico"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "Atlas FC, Leones Negros UdeG",
+            "en": "Atlas FC, Leones Negros UdeG"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-estadio-jalisco-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/estadio-jalisco.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Estadio Jalisco",
+          "en": "Original illustration of Estadio Jalisco"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "estadio-bbva",
+      "name": "Estadio BBVA",
+      "shortName": "BBVA",
+      "aliases": [],
+      "location": {
+        "city": "Monterrey",
+        "cityIt": "Monterrey",
+        "country": "Mexico",
+        "countryIt": "Messico",
+        "countryCode": "MX",
+        "continent": "North America"
+      },
+      "openedYear": 2015,
+      "capacity": {
+        "approximate": 53500,
+        "displayIt": "circa 53.500 posti",
+        "displayEn": "around 53,500 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Sede di partite della Coppa del Mondo FIFA 2026",
+        "en": "Venue for 2026 FIFA World Cup matches",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "CF Monterrey",
+          "displayIt": "CF Monterrey"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "2015",
+            "en": "2015"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 53.500 posti",
+            "en": "around 53,500 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Sede di partite della Coppa del Mondo FIFA 2026",
+            "en": "Venue for 2026 FIFA World Cup matches"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Monterrey, Messico",
+            "en": "Monterrey, Mexico"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "CF Monterrey",
+            "en": "CF Monterrey"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-estadio-bbva-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/estadio-bbva.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Estadio BBVA",
+          "en": "Original illustration of Estadio BBVA"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    },
+    {
+      "id": "estadio-akron",
+      "name": "Estadio Akron",
+      "shortName": "Akron",
+      "aliases": [],
+      "location": {
+        "city": "Guadalajara",
+        "cityIt": "Guadalajara",
+        "country": "Mexico",
+        "countryIt": "Messico",
+        "countryCode": "MX",
+        "continent": "North America"
+      },
+      "openedYear": 2010,
+      "capacity": {
+        "approximate": 49813,
+        "displayIt": "circa 49.813 posti",
+        "displayEn": "around 49,813 seats",
+        "asOf": "2026-11",
+        "note": "Indicative figure; verify against current event configuration before production."
+      },
+      "notableEvent": {
+        "it": "Sede di partite della Coppa del Mondo FIFA 2026",
+        "en": "Venue for 2026 FIFA World Cup matches",
+        "verificationStatus": "needs-source-check"
+      },
+      "homeTeams": [
+        {
+          "name": "CD Guadalajara (Chivas)",
+          "displayIt": "CD Guadalajara (Chivas)"
+        }
+      ],
+      "clueOrder": [
+        "openedYear",
+        "capacity",
+        "notableEvent",
+        "location",
+        "homeTeams"
+      ],
+      "clues": {
+        "openedYear": {
+          "label": {
+            "it": "ANNO DI INAUGURAZIONE",
+            "en": "OPENING YEAR"
+          },
+          "value": {
+            "it": "2010",
+            "en": "2010"
+          }
+        },
+        "capacity": {
+          "label": {
+            "it": "CAPIENZA",
+            "en": "CAPACITY"
+          },
+          "value": {
+            "it": "circa 49.813 posti",
+            "en": "around 49,813 seats"
+          }
+        },
+        "notableEvent": {
+          "label": {
+            "it": "EVENTO STORICO",
+            "en": "NOTABLE EVENT"
+          },
+          "value": {
+            "it": "Sede di partite della Coppa del Mondo FIFA 2026",
+            "en": "Venue for 2026 FIFA World Cup matches"
+          }
+        },
+        "location": {
+          "label": {
+            "it": "CITTÀ E PAESE",
+            "en": "CITY & COUNTRY"
+          },
+          "value": {
+            "it": "Guadalajara, Messico",
+            "en": "Guadalajara, Mexico"
+          }
+        },
+        "homeTeams": {
+          "label": {
+            "it": "SQUADRA/E OSPITANTE/I",
+            "en": "HOME TEAM(S)"
+          },
+          "value": {
+            "it": "CD Guadalajara (Chivas)",
+            "en": "CD Guadalajara (Chivas)"
+          }
+        }
+      },
+      "illustration": {
+        "assetId": "stadium-estadio-akron-illustration",
+        "provider": "commissioned",
+        "path": "assets/stadiums/illustrations/estadio-akron.webp",
+        "status": "not-created",
+        "alt": {
+          "it": "Illustrazione originale dello stadio Estadio Akron",
+          "en": "Original illustration of Estadio Akron"
+        },
+        "requirements": [
+          "original artwork",
+          "no club crests",
+          "no sponsor logos",
+          "no third-party stadium photography"
+        ]
+      },
+      "rights": {
+        "status": "pending",
+        "source": null,
+        "licence": null,
+        "attribution": null,
+        "evidenceReference": null,
+        "approvedForProduction": false
+      },
+      "editorialStatus": "draft",
+      "enabled": false,
+      "sourceUrls": [],
+      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+    }
+  ]
+}

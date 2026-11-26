@@ -1,0 +1,23 @@
+{
+  "home.play": {
+    "it": "Gioca",
+    "en": "Play",
+    "es": "Jugar",
+    "fr": "Jouer",
+    "de": "Spielen"
+  },
+  "home.dailyChallenge": {
+    "it": "Sfida giornaliera",
+    "en": "Daily Challenge",
+    "es": "Desafío diario",
+    "fr": "Défi quotidien",
+    "de": "Tägliche Herausforderung"
+  },
+  "home.leaderboard": {
+    "it": "Classifica",
+    "en": "Leaderboard",
+    "es": "Clasificación",
+    "fr": "Classement",
+    "de": "Bestenliste"
+  }
+}

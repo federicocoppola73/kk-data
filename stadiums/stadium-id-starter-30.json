@@ -1377,8 +1377,12 @@
       },
       "editorialStatus": "draft",
       "enabled": false,
-      "sourceUrls": [],
-      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+      "sourceUrls": [
+        "https://www.inter.it/en/club/stadium",
+        "https://www.acmilan.com/it/club/le-sedi/san-siro",
+        "https://sansirostadium.com/lo-stadio/"
+      ],
+      "reviewNotes": "Official source links added for initial fact-check. Verify current event-specific capacity, naming and home tenants before enabling."
     },
     {
       "id": "allianz-stadium",
@@ -1981,8 +1985,11 @@
       },
       "editorialStatus": "draft",
       "enabled": false,
-      "sourceUrls": [],
-      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+      "sourceUrls": [
+        "https://allianz-arena.com/en/arena/facts/general-information",
+        "https://www.bundesliga.com/en/bundesliga/news/stadiums-germany-2025-26-allianz-arena-signal-iduna-park-32656"
+      ],
+      "reviewNotes": "Official source links added for initial fact-check. Verify current event-specific capacity, naming and home tenants before enabling."
     },
     {
       "id": "signal-iduna-park",
@@ -3193,8 +3200,10 @@
       },
       "editorialStatus": "draft",
       "enabled": false,
-      "sourceUrls": [],
-      "reviewNotes": "Starter record compiled for prototyping. Verify current official stadium name, capacity, event history and home tenants against primary sources before enabling."
+      "sourceUrls": [
+        "https://www.estadiobanorte.com.mx/en/history"
+      ],
+      "reviewNotes": "Official source links added for initial fact-check. Verify current event-specific capacity, naming and home tenants before enabling."
     },
     {
       "id": "olimpico-universitario",

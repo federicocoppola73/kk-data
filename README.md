@@ -38,3 +38,13 @@ The JSON examples in this repository document the initial data contract. Automat
 - The register records the Wikimedia Commons source page, creator information, the file-specific licence where confirmed, and review status.
 - Licences differ between files. Do not assume the whole collection is covered by one licence.
 - All portraits remain pending and are not cleared for production use. Verify missing licence data, attribution, local modifications, and any applicable personality/privacy rights before enabling the questions.
+
+
+## Club ID starter content
+
+- `clubs/club-id-starter-12.json` contains 12 draft club records for the progressive-clue version of Club ID.
+- Clue order: city, founding year, club colours, stadium, nickname.
+- The nickname is optional. When it is absent, the game should show four clues and use the four-clue scoring schedule.
+- Prototype rules in the dataset: 10 questions per round, four answer options, a 4-second reveal interval and 25 XP per correct answer.
+- The starter records include English and Italian values for city and colours. Other UI translations remain managed in `kk-app`.
+- Data is marked as draft/partial pending a complete fact-check. Confirm current stadium naming and nickname usage against official club sources before production.

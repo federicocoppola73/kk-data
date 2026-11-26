@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "contentVersion": "0.5.0",
+  "contentVersion": "0.6.0",
   "defaultLocale": "en",
   "supportedLocales": [
     "it",
@@ -19,6 +19,7 @@
     "playerImageCredits": "players/player-image-credits.json",
     "clubIdStarter": "clubs/club-id-starter-12.json",
     "stadiumIdStarter": "stadiums/stadium-id-starter-30.json",
-    "stadiumSchema": "schemas/stadium.schema.json"
+    "stadiumSchema": "schemas/stadium.schema.json",
+    "playerIdClues": "players/player-id-clues-starter-20.json"
   }
 }

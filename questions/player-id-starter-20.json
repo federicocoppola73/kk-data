@@ -1,0 +1,427 @@
+{
+  "datasetId": "player-id-starter-20",
+  "datasetVersion": "0.1.0",
+  "notes": "One draft Player ID question per starter player. Options are intentionally omitted so the app can generate three distractors from the active player pool. All questions are disabled until approved portrait assets are available.",
+  "questions": [
+    {
+      "id": "player-photo-001",
+      "mode": "player-from-photo",
+      "difficulty": "easy",
+      "prompt": {
+        "en": "Which player is shown?",
+        "it": "Quale giocatore è raffigurato?",
+        "es": "¿Qué jugador aparece?",
+        "fr": "Quel joueur est représenté ?",
+        "de": "Welcher Spieler ist abgebildet?"
+      },
+      "answer": {
+        "entityType": "player",
+        "entityId": "lionel-messi"
+      },
+      "assetIds": [
+        "lionel-messi-portrait"
+      ],
+      "points": 100,
+      "enabled": false
+    },
+    {
+      "id": "player-photo-002",
+      "mode": "player-from-photo",
+      "difficulty": "easy",
+      "prompt": {
+        "en": "Which player is shown?",
+        "it": "Quale giocatore è raffigurato?",
+        "es": "¿Qué jugador aparece?",
+        "fr": "Quel joueur est représenté ?",
+        "de": "Welcher Spieler ist abgebildet?"
+      },
+      "answer": {
+        "entityType": "player",
+        "entityId": "cristiano-ronaldo"
+      },
+      "assetIds": [
+        "cristiano-ronaldo-portrait"
+      ],
+      "points": 100,
+      "enabled": false
+    },
+    {
+      "id": "player-photo-003",
+      "mode": "player-from-photo",
+      "difficulty": "easy",
+      "prompt": {
+        "en": "Which player is shown?",
+        "it": "Quale giocatore è raffigurato?",
+        "es": "¿Qué jugador aparece?",
+        "fr": "Quel joueur est représenté ?",
+        "de": "Welcher Spieler ist abgebildet?"
+      },
+      "answer": {
+        "entityType": "player",
+        "entityId": "kylian-mbappe"
+      },
+      "assetIds": [
+        "kylian-mbappe-portrait"
+      ],
+      "points": 100,
+      "enabled": false
+    },
+    {
+      "id": "player-photo-004",
+      "mode": "player-from-photo",
+      "difficulty": "easy",
+      "prompt": {
+        "en": "Which player is shown?",
+        "it": "Quale giocatore è raffigurato?",
+        "es": "¿Qué jugador aparece?",
+        "fr": "Quel joueur est représenté ?",
+        "de": "Welcher Spieler ist abgebildet?"
+      },
+      "answer": {
+        "entityType": "player",
+        "entityId": "erling-haaland"
+      },
+      "assetIds": [
+        "erling-haaland-portrait"
+      ],
+      "points": 100,
+      "enabled": false
+    },
+    {
+      "id": "player-photo-005",
+      "mode": "player-from-photo",
+      "difficulty": "medium",
+      "prompt": {
+        "en": "Which player is shown?",
+        "it": "Quale giocatore è raffigurato?",
+        "es": "¿Qué jugador aparece?",
+        "fr": "Quel joueur est représenté ?",
+        "de": "Welcher Spieler ist abgebildet?"
+      },
+      "answer": {
+        "entityType": "player",
+        "entityId": "mohamed-salah"
+      },
+      "assetIds": [
+        "mohamed-salah-portrait"
+      ],
+      "points": 150,
+      "enabled": false
+    },
+    {
+      "id": "player-photo-006",
+      "mode": "player-from-photo",
+      "difficulty": "medium",
+      "prompt": {
+        "en": "Which player is shown?",
+        "it": "Quale giocatore è raffigurato?",
+        "es": "¿Qué jugador aparece?",
+        "fr": "Quel joueur est représenté ?",
+        "de": "Welcher Spieler ist abgebildet?"
+      },
+      "answer": {
+        "entityType": "player",
+        "entityId": "kevin-de-bruyne"
+      },
+      "assetIds": [
+        "kevin-de-bruyne-portrait"
+      ],
+      "points": 150,
+      "enabled": false
+    },
+    {
+      "id": "player-photo-007",
+      "mode": "player-from-photo",
+      "difficulty": "medium",
+      "prompt": {
+        "en": "Which player is shown?",
+        "it": "Quale giocatore è raffigurato?",
+        "es": "¿Qué jugador aparece?",
+        "fr": "Quel joueur est représenté ?",
+        "de": "Welcher Spieler ist abgebildet?"
+      },
+      "answer": {
+        "entityType": "player",
+        "entityId": "vinicius-junior"
+      },
+      "assetIds": [
+        "vinicius-junior-portrait"
+      ],
+      "points": 150,
+      "enabled": false
+    },
+    {
+      "id": "player-photo-008",
+      "mode": "player-from-photo",
+      "difficulty": "medium",
+      "prompt": {
+        "en": "Which player is shown?",
+        "it": "Quale giocatore è raffigurato?",
+        "es": "¿Qué jugador aparece?",
+        "fr": "Quel joueur est représenté ?",
+        "de": "Welcher Spieler ist abgebildet?"
+      },
+      "answer": {
+        "entityType": "player",
+        "entityId": "jude-bellingham"
+      },
+      "assetIds": [
+        "jude-bellingham-portrait"
+      ],
+      "points": 150,
+      "enabled": false
+    },
+    {
+      "id": "player-photo-009",
+      "mode": "player-from-photo",
+      "difficulty": "medium",
+      "prompt": {
+        "en": "Which player is shown?",
+        "it": "Quale giocatore è raffigurato?",
+        "es": "¿Qué jugador aparece?",
+        "fr": "Quel joueur est représenté ?",
+        "de": "Welcher Spieler ist abgebildet?"
+      },
+      "answer": {
+        "entityType": "player",
+        "entityId": "harry-kane"
+      },
+      "assetIds": [
+        "harry-kane-portrait"
+      ],
+      "points": 150,
+      "enabled": false
+    },
+    {
+      "id": "player-photo-010",
+      "mode": "player-from-photo",
+      "difficulty": "medium",
+      "prompt": {
+        "en": "Which player is shown?",
+        "it": "Quale giocatore è raffigurato?",
+        "es": "¿Qué jugador aparece?",
+        "fr": "Quel joueur est représenté ?",
+        "de": "Welcher Spieler ist abgebildet?"
+      },
+      "answer": {
+        "entityType": "player",
+        "entityId": "robert-lewandowski"
+      },
+      "assetIds": [
+        "robert-lewandowski-portrait"
+      ],
+      "points": 150,
+      "enabled": false
+    },
+    {
+      "id": "player-photo-011",
+      "mode": "player-from-photo",
+      "difficulty": "hard",
+      "prompt": {
+        "en": "Which player is shown?",
+        "it": "Quale giocatore è raffigurato?",
+        "es": "¿Qué jugador aparece?",
+        "fr": "Quel joueur est représenté ?",
+        "de": "Welcher Spieler ist abgebildet?"
+      },
+      "answer": {
+        "entityType": "player",
+        "entityId": "neymar-jr"
+      },
+      "assetIds": [
+        "neymar-jr-portrait"
+      ],
+      "points": 200,
+      "enabled": false
+    },
+    {
+      "id": "player-photo-012",
+      "mode": "player-from-photo",
+      "difficulty": "hard",
+      "prompt": {
+        "en": "Which player is shown?",
+        "it": "Quale giocatore è raffigurato?",
+        "es": "¿Qué jugador aparece?",
+        "fr": "Quel joueur est représenté ?",
+        "de": "Welcher Spieler ist abgebildet?"
+      },
+      "answer": {
+        "entityType": "player",
+        "entityId": "luka-modric"
+      },
+      "assetIds": [
+        "luka-modric-portrait"
+      ],
+      "points": 200,
+      "enabled": false
+    },
+    {
+      "id": "player-photo-013",
+      "mode": "player-from-photo",
+      "difficulty": "hard",
+      "prompt": {
+        "en": "Which player is shown?",
+        "it": "Quale giocatore è raffigurato?",
+        "es": "¿Qué jugador aparece?",
+        "fr": "Quel joueur est représenté ?",
+        "de": "Welcher Spieler ist abgebildet?"
+      },
+      "answer": {
+        "entityType": "player",
+        "entityId": "andres-iniesta"
+      },
+      "assetIds": [
+        "andres-iniesta-portrait"
+      ],
+      "points": 200,
+      "enabled": false
+    },
+    {
+      "id": "player-photo-014",
+      "mode": "player-from-photo",
+      "difficulty": "hard",
+      "prompt": {
+        "en": "Which player is shown?",
+        "it": "Quale giocatore è raffigurato?",
+        "es": "¿Qué jugador aparece?",
+        "fr": "Quel joueur est représenté ?",
+        "de": "Welcher Spieler ist abgebildet?"
+      },
+      "answer": {
+        "entityType": "player",
+        "entityId": "xavi-hernandez"
+      },
+      "assetIds": [
+        "xavi-hernandez-portrait"
+      ],
+      "points": 200,
+      "enabled": false
+    },
+    {
+      "id": "player-photo-015",
+      "mode": "player-from-photo",
+      "difficulty": "hard",
+      "prompt": {
+        "en": "Which player is shown?",
+        "it": "Quale giocatore è raffigurato?",
+        "es": "¿Qué jugador aparece?",
+        "fr": "Quel joueur est représenté ?",
+        "de": "Welcher Spieler ist abgebildet?"
+      },
+      "answer": {
+        "entityType": "player",
+        "entityId": "zinedine-zidane"
+      },
+      "assetIds": [
+        "zinedine-zidane-portrait"
+      ],
+      "points": 200,
+      "enabled": false
+    },
+    {
+      "id": "player-photo-016",
+      "mode": "player-from-photo",
+      "difficulty": "hard",
+      "prompt": {
+        "en": "Which player is shown?",
+        "it": "Quale giocatore è raffigurato?",
+        "es": "¿Qué jugador aparece?",
+        "fr": "Quel joueur est représenté ?",
+        "de": "Welcher Spieler ist abgebildet?"
+      },
+      "answer": {
+        "entityType": "player",
+        "entityId": "ronaldinho"
+      },
+      "assetIds": [
+        "ronaldinho-portrait"
+      ],
+      "points": 200,
+      "enabled": false
+    },
+    {
+      "id": "player-photo-017",
+      "mode": "player-from-photo",
+      "difficulty": "expert",
+      "prompt": {
+        "en": "Which player is shown?",
+        "it": "Quale giocatore è raffigurato?",
+        "es": "¿Qué jugador aparece?",
+        "fr": "Quel joueur est représenté ?",
+        "de": "Welcher Spieler ist abgebildet?"
+      },
+      "answer": {
+        "entityType": "player",
+        "entityId": "thierry-henry"
+      },
+      "assetIds": [
+        "thierry-henry-portrait"
+      ],
+      "points": 250,
+      "enabled": false
+    },
+    {
+      "id": "player-photo-018",
+      "mode": "player-from-photo",
+      "difficulty": "expert",
+      "prompt": {
+        "en": "Which player is shown?",
+        "it": "Quale giocatore è raffigurato?",
+        "es": "¿Qué jugador aparece?",
+        "fr": "Quel joueur est représenté ?",
+        "de": "Welcher Spieler ist abgebildet?"
+      },
+      "answer": {
+        "entityType": "player",
+        "entityId": "gianluigi-buffon"
+      },
+      "assetIds": [
+        "gianluigi-buffon-portrait"
+      ],
+      "points": 250,
+      "enabled": false
+    },
+    {
+      "id": "player-photo-019",
+      "mode": "player-from-photo",
+      "difficulty": "expert",
+      "prompt": {
+        "en": "Which player is shown?",
+        "it": "Quale giocatore è raffigurato?",
+        "es": "¿Qué jugador aparece?",
+        "fr": "Quel joueur est représenté ?",
+        "de": "Welcher Spieler ist abgebildet?"
+      },
+      "answer": {
+        "entityType": "player",
+        "entityId": "paolo-maldini"
+      },
+      "assetIds": [
+        "paolo-maldini-portrait"
+      ],
+      "points": 250,
+      "enabled": false
+    },
+    {
+      "id": "player-photo-020",
+      "mode": "player-from-photo",
+      "difficulty": "expert",
+      "prompt": {
+        "en": "Which player is shown?",
+        "it": "Quale giocatore è raffigurato?",
+        "es": "¿Qué jugador aparece?",
+        "fr": "Quel joueur est représenté ?",
+        "de": "Welcher Spieler ist abgebildet?"
+      },
+      "answer": {
+        "entityType": "player",
+        "entityId": "diego-maradona"
+      },
+      "assetIds": [
+        "diego-maradona-portrait"
+      ],
+      "points": 250,
+      "enabled": false
+    }
+  ]
+}

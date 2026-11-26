@@ -34,11 +34,11 @@ The JSON examples in this repository document the initial data contract. Automat
 
 ## Player portrait assets and attribution
 
-- Portrait files are stored in `players/pending/` and referenced by `players/player-id-starter-20.json`.
-- `players/player-image-credits.json` is the source and attribution register for all 20 portraits.
+- Legacy portrait files are retained in `players/pending/` for reference only. They are no longer used by the current Player ID game.
+- `players/player-image-credits.json` is the historical source and attribution register for the legacy portrait set.
 - The register records the Wikimedia Commons source page, creator information, the file-specific licence where confirmed, and review status.
 - Licences differ between files. Do not assume the whole collection is covered by one licence.
-- All portraits remain pending and are not cleared for production use. Verify missing licence data, attribution, local modifications, and any applicable personality/privacy rights before enabling the questions.
+- All legacy portraits remain pending, are not used in the app, and are not cleared for production use. Verify missing licence data, attribution, local modifications, and any applicable personality/privacy rights before enabling the questions.
 
 
 ## Club ID starter content

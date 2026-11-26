@@ -26,9 +26,10 @@ The JSON examples in this repository document the initial data contract. Automat
 ## Player ID starter content
 
 - `players/player-id-starter-20.json` contains 20 well-known current and retired players.
-- `questions/player-id-starter-20.json` contains one draft photo-identification question per player.
-- Question options are omitted intentionally: the app should generate three distractors from the eligible player pool.
-- All starter questions are disabled and all portrait rights are pending. Add properly licensed portrait files and record the supporting rights evidence before enabling any question.
+- `players/player-id-clues-starter-20.json` contains five progressive biographical clues for each starter player.
+- Player ID uses nationality, birthplace, playing role, playing era and a distinctive record/career fact. Club names, transfers and club-year sequences are deliberately excluded and reserved for Career Path.
+- The app generates three distractors, preferring players with the same nationality and then the same playing role.
+- Biographical facts are draft content and must be checked against reliable sources before production. No player portraits are required by this mode.
 
 
 ## Player portrait assets and attribution

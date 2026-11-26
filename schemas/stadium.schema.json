@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kitandkick.example/schemas/stadium.schema.json",
+  "title": "Kit & Kick Stadium",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "datasetId",
+    "datasetVersion",
+    "status",
+    "gameRules",
+    "records"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string"
+    },
+    "datasetId": {
+      "const": "stadium-id-starter-30"
+    },
+    "datasetVersion": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "review",
+        "published"
+      ]
+    },
+    "defaultLocale": {
+      "enum": [
+        "it",
+        "en"
+      ]
+    },
+    "supportedLocales": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "it",
+          "en"
+        ]
+      },
+      "minItems": 2
+    },
+    "gameRules": {
+      "type": "object",
+      "required": [
+        "questionsPerRound",
+        "answerOptions",
+        "cluesPerQuestion",
+        "clueOrder",
+        "automaticRevealIntervalMs",
+        "scoringByClue",
+        "xpPerCorrectAnswer",
+        "distractorPolicy"
+      ],
+      "properties": {
+        "questionsPerRound": {
+          "const": 10
+        },
+        "answerOptions": {
+          "const": 4
+        },
+        "cluesPerQuestion": {
+          "const": 5
+        },
+        "clueOrder": {
+          "const": [
+            "openedYear",
+            "capacity",
+            "notableEvent",
+            "location",
+            "homeTeams"
+          ]
+        },
+        "automaticRevealIntervalMs": {
+          "const": 4000
+        },
+        "scoringByClue": {
+          "const": [
+            200,
+            160,
+            120,
+            80,
+            40
+          ]
+        },
+        "xpPerCorrectAnswer": {
+          "const": 25
+        },
+        "distractorPolicy": {
+          "type": "object",
+          "required": [
+            "priority",
+            "allowOtherCountries",
+            "minimumEligibleAnswers",
+            "failClosed"
+          ]
+        }
+      }
+    },
+    "records": {
+      "type": "array",
+      "minItems": 30,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "location",
+          "openedYear",
+          "capacity",
+          "notableEvent",
+          "homeTeams",
+          "clues",
+          "illustration",
+          "rights",
+          "editorialStatus",
+          "enabled"
+        ]
+      }
+    }
+  },
+  "additionalProperties": false
+}

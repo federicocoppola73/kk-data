@@ -1,0 +1,284 @@
+{
+  "datasetId": "club-id-starter-12",
+  "modeId": "club-id",
+  "status": "draft",
+  "note": "Internal prototype data. Verify all clue values, especially current stadium naming and nickname usage, against official club sources before production.",
+  "clueOrder": [
+    "city",
+    "foundedYear",
+    "colors",
+    "stadium",
+    "nickname"
+  ],
+  "revealIntervalMs": 4000,
+  "roundLength": 10,
+  "answerOptions": 4,
+  "xpPerCorrectAnswer": 25,
+  "scoring": {
+    "fiveClues": [
+      1,
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "fourClues": [
+      1,
+      0.75,
+      0.5,
+      0.25
+    ],
+    "note": "If nickname is missing, omit that clue and use the four-clue scoring schedule."
+  },
+  "clubs": [
+    {
+      "id": "real-madrid",
+      "name": "Real Madrid",
+      "city": {
+        "en": "Madrid",
+        "it": "Madrid"
+      },
+      "foundedYear": 1902,
+      "colors": {
+        "en": "White",
+        "it": "Bianco"
+      },
+      "stadium": "Santiago Bernabéu",
+      "nickname": "Los Blancos",
+      "difficulty": "easy",
+      "basePoints": 100,
+      "verificationStatus": "partial",
+      "sourceUrls": [
+        "https://www.fifa.com/en/articles/real-madrid-club-profile-history-players-qualified"
+      ]
+    },
+    {
+      "id": "barcelona",
+      "name": "FC Barcelona",
+      "city": {
+        "en": "Barcelona",
+        "it": "Barcellona"
+      },
+      "foundedYear": 1899,
+      "colors": {
+        "en": "Blue and garnet",
+        "it": "Blu e granata"
+      },
+      "stadium": "Spotify Camp Nou",
+      "nickname": "Blaugrana",
+      "difficulty": "easy",
+      "basePoints": 100,
+      "verificationStatus": "pending",
+      "sourceUrls": []
+    },
+    {
+      "id": "manchester-united",
+      "name": "Manchester United",
+      "city": {
+        "en": "Manchester",
+        "it": "Manchester"
+      },
+      "foundedYear": 1878,
+      "colors": {
+        "en": "Red, white and black",
+        "it": "Rosso, bianco e nero"
+      },
+      "stadium": "Old Trafford",
+      "nickname": "The Red Devils",
+      "difficulty": "easy",
+      "basePoints": 100,
+      "verificationStatus": "partial",
+      "sourceUrls": [
+        "https://ir.manutd.com/company-information/history.aspx",
+        "https://www.manutd.com/en/club/history/history-by-decade/1878-1909"
+      ]
+    },
+    {
+      "id": "liverpool",
+      "name": "Liverpool FC",
+      "city": {
+        "en": "Liverpool",
+        "it": "Liverpool"
+      },
+      "foundedYear": 1892,
+      "colors": {
+        "en": "Red",
+        "it": "Rosso"
+      },
+      "stadium": "Anfield",
+      "nickname": "The Reds",
+      "difficulty": "easy",
+      "basePoints": 100,
+      "verificationStatus": "partial",
+      "sourceUrls": [
+        "https://www.liverpoolfc.com/info/how-liverpool-fc-was-founded-1892"
+      ]
+    },
+    {
+      "id": "arsenal",
+      "name": "Arsenal FC",
+      "city": {
+        "en": "London",
+        "it": "Londra"
+      },
+      "foundedYear": 1886,
+      "colors": {
+        "en": "Red and white",
+        "it": "Rosso e bianco"
+      },
+      "stadium": "Emirates Stadium",
+      "nickname": "The Gunners",
+      "difficulty": "medium",
+      "basePoints": 150,
+      "verificationStatus": "pending",
+      "sourceUrls": []
+    },
+    {
+      "id": "chelsea",
+      "name": "Chelsea FC",
+      "city": {
+        "en": "London",
+        "it": "Londra"
+      },
+      "foundedYear": 1905,
+      "colors": {
+        "en": "Blue and white",
+        "it": "Blu e bianco"
+      },
+      "stadium": "Stamford Bridge",
+      "nickname": "The Blues",
+      "difficulty": "medium",
+      "basePoints": 150,
+      "verificationStatus": "partial",
+      "sourceUrls": [
+        "https://www.chelseafc.com/en/history",
+        "https://www.chelseafc.com/en/news/article/founders-day-the-birth-of-the-blues"
+      ]
+    },
+    {
+      "id": "manchester-city",
+      "name": "Manchester City",
+      "city": {
+        "en": "Manchester",
+        "it": "Manchester"
+      },
+      "foundedYear": 1880,
+      "colors": {
+        "en": "Sky blue and white",
+        "it": "Azzurro e bianco"
+      },
+      "stadium": "Etihad Stadium",
+      "nickname": "The Citizens",
+      "difficulty": "medium",
+      "basePoints": 150,
+      "verificationStatus": "partial",
+      "sourceUrls": [
+        "https://www.fifa.com/en/tournaments/mens/club-world-cup/usa-2025/articles/manchester-city-club-profile-history-players-qualified"
+      ]
+    },
+    {
+      "id": "juventus",
+      "name": "Juventus",
+      "city": {
+        "en": "Turin",
+        "it": "Torino"
+      },
+      "foundedYear": 1897,
+      "colors": {
+        "en": "Black and white",
+        "it": "Bianco e nero"
+      },
+      "stadium": "Allianz Stadium",
+      "nickname": "La Vecchia Signora",
+      "difficulty": "medium",
+      "basePoints": 150,
+      "verificationStatus": "partial",
+      "sourceUrls": [
+        "https://www.juventus.com/en/club/history/the-story-of-a-legend"
+      ]
+    },
+    {
+      "id": "inter",
+      "name": "Inter",
+      "city": {
+        "en": "Milan",
+        "it": "Milano"
+      },
+      "foundedYear": 1908,
+      "colors": {
+        "en": "Black and blue",
+        "it": "Nero e azzurro"
+      },
+      "stadium": "San Siro",
+      "nickname": "I Nerazzurri",
+      "difficulty": "hard",
+      "basePoints": 200,
+      "verificationStatus": "partial",
+      "sourceUrls": [
+        "https://www.inter.it/en/club/club-transparency",
+        "https://www.fifa.com/en/tournaments/mens/club-world-cup/usa-2025/articles/inter-milan-club-profile-history-players-qualified"
+      ]
+    },
+    {
+      "id": "ac-milan",
+      "name": "AC Milan",
+      "city": {
+        "en": "Milan",
+        "it": "Milano"
+      },
+      "foundedYear": 1899,
+      "colors": {
+        "en": "Red and black",
+        "it": "Rosso e nero"
+      },
+      "stadium": "San Siro",
+      "nickname": "I Rossoneri",
+      "difficulty": "hard",
+      "basePoints": 200,
+      "verificationStatus": "partial",
+      "sourceUrls": [
+        "https://www.acmilan.com/en/club/history"
+      ]
+    },
+    {
+      "id": "bayern-munich",
+      "name": "Bayern Munich",
+      "city": {
+        "en": "Munich",
+        "it": "Monaco di Baviera"
+      },
+      "foundedYear": 1900,
+      "colors": {
+        "en": "Red and white",
+        "it": "Rosso e bianco"
+      },
+      "stadium": "Allianz Arena",
+      "nickname": "Die Roten",
+      "difficulty": "hard",
+      "basePoints": 200,
+      "verificationStatus": "pending",
+      "sourceUrls": []
+    },
+    {
+      "id": "paris-saint-germain",
+      "name": "Paris Saint-Germain",
+      "city": {
+        "en": "Paris",
+        "it": "Parigi"
+      },
+      "foundedYear": 1970,
+      "colors": {
+        "en": "Blue, red and white",
+        "it": "Blu, rosso e bianco"
+      },
+      "stadium": "Parc des Princes",
+      "nickname": "Les Parisiens",
+      "difficulty": "expert",
+      "basePoints": 250,
+      "verificationStatus": "partial",
+      "sourceUrls": [
+        "https://www.psg.fr/en/the-club/about/identity"
+      ]
+    }
+  ]
+}

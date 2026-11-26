@@ -48,3 +48,14 @@ The JSON examples in this repository document the initial data contract. Automat
 - Prototype rules in the dataset: 10 questions per round, four answer options, a 4-second reveal interval and 25 XP per correct answer.
 - The starter records include English and Italian values for city and colours. Other UI translations remain managed in `kk-app`.
 - Data is marked as draft/partial pending a complete fact-check. Confirm current stadium naming and nickname usage against official club sources before production.
+
+
+## Stadium ID starter content
+
+- `stadiums/stadium-id-starter-30.json` contains 30 worldwide starter stadium records across England, Spain, Italy, Germany, Brazil and Mexico.
+- Each question uses five progressive clues in this order: opening year, capacity, notable event, city and country, home team(s).
+- Prototype rules: 10 questions per round, four answer options, 4-second automatic reveal, manual reveal, 200/160/120/80/40 points by clue used, and 25 XP per correct answer.
+- Distractor selection is restricted to the same city first, then the same country. Cross-country distractors are not allowed. If three eligible distractors cannot be found, the question must not be served.
+- Original illustration paths are planned under `assets/stadiums/illustrations/`; no illustration files are included yet.
+- All records are disabled and remain draft. Opening years, capacities, notable events, official stadium names and home-team relationships require primary-source verification before production.
+- `schemas/stadium.schema.json` documents the initial dataset contract.
